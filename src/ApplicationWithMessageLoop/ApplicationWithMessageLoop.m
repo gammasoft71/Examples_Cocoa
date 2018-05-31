@@ -4,6 +4,10 @@ NSString* NSEventTypeToNSString(NSEventType eventType);
 NSString* NSEventModifierFlagsToNSString(NSEventModifierFlags modifierFlags);
 
 int main(int argc, char* argv[]) {
+  // Create Window
+  NSWindow* form1 = [[[NSWindow alloc] initWithContentRect:NSMakeRect(100, 100, 300, 300) styleMask:NSWindowStyleMaskTitled | NSWindowStyleMaskClosable | NSWindowStyleMaskResizable backing:NSBackingStoreBuffered defer:NO] autorelease];
+  [form1 setIsVisible:YES];
+  
   // Gets process name
   NSString* processName = [[NSProcessInfo processInfo] processName];
   

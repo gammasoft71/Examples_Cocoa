@@ -5,27 +5,29 @@ Shows how to use macOS AppKit Cocoa controls without StoryBoard only by programm
 
 ## Hello, World!
 
-["Hello, World!"](Form/Form.m) The classic first application HelloWorld, with NSTextField.
+["Hello, World!"](src/HelloWorld) The classic first application HelloWorld, with NSTextField.
 
 ## Application and messages
 
-[Application](Application/Application.m) Shows how to create a simple Cocoa application with NSApplication.
+[Application](src/Application) Shows how to create a simple Cocoa application with NSApplication.
 
 [Application with message loop](ApplicationWithMessageLoop/ApplicationWithMessageLoop.m) Shows how to create your own message loop and dispatcher with NSEvent.
 
 ## Containers
 
-[Form](Form/Form.m) Shows how to create a simple Cocoa Form with NSWndow.
+[Form](src/Form) Shows how to create a simple Cocoa Form with NSWndow.
 
-[TabControl and TabPages](TabControl/TabControl.m) Shows how to create a simple Cocoa TabControl with TabPages with NSTabView and NSTabViewItem.
+[TabControl](src/TabControl) Shows how to create a simple Cocoa TabControl with TabPages with NSTabView and NSTabViewItem.
+
+[TabPages](src/TabControl) Shows how to create a simple Cocoa TabControl with TabPages with NSTabView and NSTabViewItem.
 
 ## Common Controls
 
-[Button](Button/Button.m) Shows how to create a Cocoa Button and Event Click with NSButton.
+[Button](src/Button) Shows how to create a Cocoa Button and Event Click with NSButton.
 
-[CheckBox](Button/CheckBox.m) Shows how to create a Cocoa CheckBox and Event Click with NSButton.
+[CheckBox](src/CheckBox) Shows how to create a Cocoa CheckBox and Event Click with NSButton.
 
-[Label](Form/Form.m) Shows how to create a Cocoa Label with NSTextField.
+[Label](src/Label) Shows how to create a Cocoa Label with NSTextField.
 
 ## Download
 

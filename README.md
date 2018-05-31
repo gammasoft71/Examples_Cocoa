@@ -3,21 +3,15 @@
 
 Shows how to use macOS AppKit Cocoa controls without StoryBoard only by programming code (objective-c).
 
-## Hello, World!
+## Hello World
 
-["Hello, World!"](src/HelloWorld) The classic first application HelloWorld, with NSTextField.
+["Hello World"](src/HelloWorld) The classic first application HelloWorld with NSTextField.
 
 ## Application and messages
 
 [Application](src/Application) Shows how to create a simple Cocoa application with NSApplication.
 
 [Application with message loop](src/ApplicationWithMessageLoop) Shows how to create your own message loop and dispatcher with NSEvent.
-
-## Containers
-
-[Form](src/Form) Shows how to create a simple Cocoa Form with NSWndow.
-
-[TabControl](src/TabControl) Shows how to create a simple Cocoa TabControl with TabPages with NSTabView and NSTabViewItem.
 
 ## Common Controls
 
@@ -26,6 +20,15 @@ Shows how to use macOS AppKit Cocoa controls without StoryBoard only by programm
 [CheckBox](src/CheckBox) Shows how to create a Cocoa CheckBox and Event Click with NSButton.
 
 [Label](src/Label) Shows how to create a Cocoa Label with NSTextField.
+
+## Containers
+
+[Form](src/Form) Shows how to create a simple Cocoa Form with NSWndow.
+
+[TabControl](src/TabControl) Shows how to create a simple Cocoa TabControl with TabPages with NSTabView and NSTabViewItem.
+
+## Dialogs
+
 
 ## Download
 

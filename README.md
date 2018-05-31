@@ -11,15 +11,13 @@ Shows how to use macOS AppKit Cocoa controls without StoryBoard only by programm
 
 [Application](src/Application) Shows how to create a simple Cocoa application with NSApplication.
 
-[Application with message loop](ApplicationWithMessageLoop/ApplicationWithMessageLoop.m) Shows how to create your own message loop and dispatcher with NSEvent.
+[Application with message loop](src/ApplicationWithMessageLoop) Shows how to create your own message loop and dispatcher with NSEvent.
 
 ## Containers
 
 [Form](src/Form) Shows how to create a simple Cocoa Form with NSWndow.
 
 [TabControl](src/TabControl) Shows how to create a simple Cocoa TabControl with TabPages with NSTabView and NSTabViewItem.
-
-[TabPages](src/TabControl) Shows how to create a simple Cocoa TabControl with TabPages with NSTabView and NSTabViewItem.
 
 ## Common Controls
 

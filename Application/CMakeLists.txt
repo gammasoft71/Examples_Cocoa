@@ -1,4 +1,4 @@
-Project(Application)
+Project(Application VERSION 1.0.0)
 add_executable(Application MACOSX_BUNDLE Application.m)
 set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -framework Cocoa")
 

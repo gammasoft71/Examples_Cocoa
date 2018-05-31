@@ -1,4 +1,4 @@
-Project(Button)
+Project(Button VERSION 1.0.0)
 add_executable(Button MACOSX_BUNDLE Button.m)
 set(CMAKE_EXE_LINKER_FLAGS  "${CMAKE_EXE_LINKER_FLAGS} -framework Cocoa")
 

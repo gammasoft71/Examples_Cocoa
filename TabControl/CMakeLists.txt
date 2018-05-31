@@ -1,4 +1,4 @@
-Project(TabControl)
+Project(TabControl VERSION 1.0.0)
 add_executable(TabControl MACOSX_BUNDLE TabControl.m)
 set(CMAKE_EXE_LINKER_FLAGS  "${CMAKE_EXE_LINKER_FLAGS} -framework Cocoa")
 

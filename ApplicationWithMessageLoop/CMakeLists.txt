@@ -1,4 +1,4 @@
-Project(ApplicationWithMessageLoop)
+Project(ApplicationWithMessageLoop VERSION 1.0.0)
 add_executable(ApplicationWithMessageLoop MACOSX_BUNDLE ApplicationWithMessageLoop.m)
 set(CMAKE_EXE_LINKER_FLAGS  "${CMAKE_EXE_LINKER_FLAGS} -framework Cocoa")
 

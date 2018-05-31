@@ -1,4 +1,4 @@
-Project(Form)
+Project(Form VERSION 1.0.0)
 add_executable(Form MACOSX_BUNDLE Form.m)
 set(CMAKE_EXE_LINKER_FLAGS  "${CMAKE_EXE_LINKER_FLAGS} -framework Cocoa")
 

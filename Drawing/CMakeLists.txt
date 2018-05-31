@@ -1,4 +1,4 @@
-Project(Drawing)
+Project(Drawing VERSION 1.0.0)
 add_executable(Drawing MACOSX_BUNDLE Drawing.m)
 set(CMAKE_EXE_LINKER_FLAGS  "${CMAKE_EXE_LINKER_FLAGS} -framework Cocoa")
 

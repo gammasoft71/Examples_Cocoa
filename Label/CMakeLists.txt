@@ -1,4 +1,4 @@
-Project(Label)
+Project(Label VERSION 1.0.0)
 add_executable(Label MACOSX_BUNDLE Label.m)
 set(CMAKE_EXE_LINKER_FLAGS  "${CMAKE_EXE_LINKER_FLAGS} -framework Cocoa")
 

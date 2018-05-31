@@ -106,8 +106,7 @@ int main(int argc, char* argv[]) {
       // run your own dispatcher...
       [NSApp sendEvent:event];
       [NSApp updateWindows];
-    }
-    if (hasIdle) {
+    } else if (hasIdle) {
       // run idle method...
     }
   }

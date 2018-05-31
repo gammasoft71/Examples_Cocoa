@@ -69,9 +69,12 @@ int main(int argc, char* argv[]) {
       
       [NSApp sendEvent:event];
       [NSApp updateWindows];
-    }
-    if (hasIdle) {
-      // run idle method...
+    } else if (hasIdle) {
+      // --> run idle method...
+      // remove comment to see idle evolution
+      //static int idleCounter = 0;
+      //NSLog(@"Idle %d", ++idleCounter);
+      // <--
     }
   }
   [pool release];

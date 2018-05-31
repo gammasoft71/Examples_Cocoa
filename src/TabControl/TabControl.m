@@ -39,33 +39,24 @@
 @end
 
 int main(int argc, char* argv[]) {
-  // Create Button
-  Button* button1 = [[[Button alloc] initWithFrame:NSMakeRect(10, 200, 75, 25)] autorelease];
-  [button1 setTitle:@"button1"];
-  [button1 setBezelStyle:NSBezelStyleRounded];
-  [button1 setTarget:button1];
-  [button1 setAction:@selector(OnClick:)];
-  [button1 setAutoresizingMask:NSViewMaxXMargin | NSViewMinYMargin];
-
   // Create TabPages
   TabPage* tabPage1 = [[TabPage alloc] init];
-  [tabPage1 setLabel:@"page 1"];
-  [[tabPage1 view] setFrame:NSMakeRect(0, 0, 280, 280)];
-  [[tabPage1 view] setAutoresizingMask:NSViewMinXMargin |NSViewMaxXMargin | NSViewMinYMargin| NSViewMaxYMargin];
-  [[tabPage1 view] addSubview:button1];
-  [[tabPage1 view] setWantsLayer:YES];
-  [[[tabPage1 view] layer] setBackgroundColor:[NSColor greenColor].CGColor];
+  [tabPage1 setLabel:@"tabPage1"];
 
   TabPage* tabPage2 = [[TabPage alloc] init];
-  [tabPage2 setLabel:@"page 2"];
-  
+  [tabPage2 setLabel:@"tabPage2"];
+
+  TabPage* tabPage3 = [[TabPage alloc] init];
+  [tabPage3 setLabel:@"tabPage3"];
+
   // Create TabControl
-  TabControl* tabControl = [[TabControl alloc] initWithFrame:NSMakeRect(10, 10, 280, 280)];
+  TabControl* tabControl = [[TabControl alloc] initWithFrame:NSMakeRect(10, 10, 370, 250)];
   [tabControl insertTabViewItem:tabPage1 atIndex:0];
   [tabControl insertTabViewItem:tabPage2 atIndex:1];
+  [tabControl insertTabViewItem:tabPage3 atIndex:2];
 
   // Create Form
-  Form* form1 = [[[Form alloc] initWithContentRect:NSMakeRect(100, 100, 300, 300) styleMask:NSWindowStyleMaskTitled | NSWindowStyleMaskClosable | NSWindowStyleMaskResizable backing:NSBackingStoreBuffered defer:NO] autorelease];
+  Form* form1 = [[[Form alloc] initWithContentRect:NSMakeRect(100, 100, 390, 270) styleMask:NSWindowStyleMaskTitled | NSWindowStyleMaskClosable | NSWindowStyleMaskResizable backing:NSBackingStoreBuffered defer:NO] autorelease];
   [form1 setTitle:@"TabControl example"];
   [[form1 contentView] addSubview:tabControl];
   [form1 setIsVisible:YES];

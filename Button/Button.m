@@ -28,7 +28,7 @@
 
 int main(int argc, char* argv[]) {
   // Create Button
-  Button* button1 = [[[Button alloc] initWithFrame:NSMakeRect(10, 265, 75, 25)] autorelease];
+  Button* button1 = [[[Button alloc] initWithFrame:NSMakeRect(10, 265, 90, 32)] autorelease];
   [button1 setTitle:@"button1"];
   [button1 setBezelStyle:NSBezelStyleRounded];
   [button1 setTarget:button1];

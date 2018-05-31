@@ -21,10 +21,11 @@ Shows how to use macOS AppKit Cocoa controls without StoryBoard only by programm
 
 ## Common Controls
 
+[Button](Button/Button.m) Shows how to create a Cocoa Button and Event Click with NSButton.
+
+[CheckBox](Button/CheckBox.m) Shows how to create a Cocoa CheckBox and Event Click with NSButton.
+
 [Label](Form/Form.m) Shows how to create a Cocoa Label with NSTextField.
-
-[Button](Button/Button.m) Shows how to create a Cocoa Button and Event Click with NSButton and NSAlert.
-
 
 ## Download
 

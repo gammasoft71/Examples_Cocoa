@@ -108,7 +108,7 @@
 
 - (BOOL)windowShouldClose:(id)sender {
   [NSApp terminate:sender];
-  return NO;
+  return YES;
 }
 
 - (IBAction) OnButton1Click:(id)sender {

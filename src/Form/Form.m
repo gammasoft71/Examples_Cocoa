@@ -69,11 +69,10 @@
   [alert setAlertStyle:NSAlertStyleWarning];
   [alert addButtonWithTitle:@"Yes"];
   [alert addButtonWithTitle:@"No"];
-  NSModalResponse response = [alert runModal];
-  if (response == NSAlertFirstButtonReturn) {
-    [NSApp terminate:sender];
-    return YES;
-  }
+  [alert beginSheetModalForWindow:self completionHandler:^(NSModalResponse returnCode) {
+    if (returnCode == NSAlertFirstButtonReturn)
+      [NSApp terminate:sender];
+  }];
   return NO;
 }
 @end

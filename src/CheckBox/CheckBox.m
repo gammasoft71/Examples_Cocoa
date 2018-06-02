@@ -41,8 +41,6 @@
   [checkBox1 setTitle:@"Checked"];
   [checkBox1 setAllowsMixedState:YES];
   [checkBox1 setButtonType:NSButtonTypeSwitch];
-  [checkBox1 setTarget:checkBox1];
-  [checkBox1 setAction:@selector(OnClick:)];
   [checkBox1 setAutoresizingMask:NSViewMaxXMargin | NSViewMinYMargin];
   [checkBox1 setState:NSControlStateValueOn];
   
@@ -50,8 +48,6 @@
   [checkBox2 setTitle:@"Unchecked"];
   [checkBox2 setAllowsMixedState:YES];
   [checkBox2 setButtonType:NSButtonTypeSwitch];
-  [checkBox2 setTarget:checkBox2];
-  [checkBox2 setAction:@selector(OnClick:)];
   [checkBox2 setAutoresizingMask:NSViewMaxXMargin | NSViewMinYMargin];
   [checkBox2 setState:NSControlStateValueOff];
   
@@ -59,8 +55,6 @@
   [checkBox3 setTitle:@"Indeterminate"];
   [checkBox3 setAllowsMixedState:YES];
   [checkBox3 setButtonType:NSButtonTypeSwitch];
-  [checkBox3 setTarget:checkBox3];
-  [checkBox3 setAction:@selector(OnClick:)];
   [checkBox3 setAutoresizingMask:NSViewMaxXMargin | NSViewMinYMargin];
   [checkBox3 setState:NSControlStateValueMixed];
 

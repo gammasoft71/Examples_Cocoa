@@ -29,6 +29,8 @@ Shows how to use macOS AppKit Cocoa controls without StoryBoard only by programm
 
 [TextBox](src/TextBox) Shows how to create a Cocoa TextBox with NSTextField.
 
+[TrackBar](src/TrackBar) Shows how to create a Cocoa TrackBar with NSSlider.
+
 ## Containers
 
 [Form](src/Form) Shows how to create a simple Cocoa Form with NSWndow.
@@ -38,6 +40,10 @@ Shows how to use macOS AppKit Cocoa controls without StoryBoard only by programm
 [Panel](src/Panel) Shows how to create a simple Cocoa Panel with NSScrollView.
 
 [TabControl](src/TabControl) Shows how to create a simple Cocoa TabControl with TabPages with NSTabView and NSTabViewItem.
+
+## Components
+
+[Timer](src/Timer) Shows how to create a simple Cocoa Timer with NSTimer.
 
 ## Dialogs
 

@@ -13,6 +13,7 @@ add_subdirectory("src/MainMenu")
 add_subdirectory("src/ProgressBar")
 add_subdirectory("src/RadioButton")
 add_subdirectory("src/TextBox")
+add_subdirectory("src/TrackBar")
 
 add_subdirectory("src/ColoredTabPages")
 add_subdirectory("src/Form")

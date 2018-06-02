@@ -1,7 +1,7 @@
 #include <Cocoa/Cocoa.h>
 
 @interface Form : NSWindow {
-  NSTextField* label1;
+  NSTextField* textBox1;
 }
 - (instancetype)init;
 - (BOOL)windowShouldClose:(id)sender;
@@ -35,16 +35,12 @@
   [[[NSApp mainMenu] itemArray][3] setSubmenu:[[[NSMenu alloc] initWithTitle:NSLocalizedString(@"Help" , nil)] autorelease]];
   [NSApp setHelpMenu:[[[NSApp mainMenu] itemArray][3] submenu]];
 
-  label1 = [[[NSTextField alloc] initWithFrame:NSMakeRect(10, 270, 100, 20)] autorelease];
-  [label1 setStringValue:@"label1"];
-  [label1 setBezeled:NO];
-  [label1 setDrawsBackground:NO];
-  [label1 setEditable:NO];
-  [label1 setSelectable:NO];
+  textBox1 = [[[NSTextField alloc] initWithFrame:NSMakeRect(10, 270, 100, 20)] autorelease];
+  [textBox1 setStringValue:@"textBox1"];
   
   [super initWithContentRect:NSMakeRect(100, 100, 300, 300) styleMask:NSWindowStyleMaskTitled | NSWindowStyleMaskClosable | NSWindowStyleMaskResizable backing:NSBackingStoreBuffered defer:NO];
-  [self setTitle:@"Label Example"];
-  [[self contentView] addSubview:label1];
+  [self setTitle:@"TextBox Example"];
+  [[self contentView] addSubview:textBox1];
   [self setIsVisible:YES];
   return self;
 }

@@ -1,5 +1,5 @@
-# TabControl
+# GroupBox
 
-This example demonstrates the use of NSTabView and NSTabViewItem controls.
+This example demonstrates the use of NSBox control.
 
 ![GitHub Logo](../../docs/Pictures/GroupBox.png)

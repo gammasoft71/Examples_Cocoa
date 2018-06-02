@@ -23,6 +23,8 @@ Shows how to use macOS AppKit Cocoa controls without StoryBoard only by programm
 
 [MainMenu](src/MainMenu) Shows how to create a Cocoa MainMenu with NSMenu and NSMenuItem.
 
+[ProgressBar](src/ProgressBar) Shows how to create a Cocoa ProgressBar with NSProgressIndicator.
+
 [RadioButton](src/RadioButton) Shows how to create a Cocoa RadioButton with NSButton.
 
 [TextBox](src/TextBox) Shows how to create a Cocoa TextBox with NSTextField.

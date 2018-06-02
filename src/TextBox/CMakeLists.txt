@@ -1,4 +1,4 @@
-Project(Label VERSION 1.0.0)
+Project(TextBox VERSION 1.0.0)
 add_executable(TextBox MACOSX_BUNDLE TextBox.m)
 set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -framework Cocoa")
 

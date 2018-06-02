@@ -8,10 +8,11 @@ add_subdirectory("src/ApplicationWithMessageLoop")
 
 add_subdirectory("src/Button")
 add_subdirectory("src/CheckBox")
+add_subdirectory("src/Label")
 
 add_subdirectory("src/ColoredTabPages")
 add_subdirectory("src/Form")
-add_subdirectory("src/Label")
+add_subdirectory("src/GroupBox")
 add_subdirectory("src/TabControl")
 
 add_subdirectory("src/MessageBox")

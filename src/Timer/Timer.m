@@ -51,7 +51,6 @@
 }
 
 - (void)onTimerTick:(NSTimer*)timer {
-  if (counter == 73) return;
   [label setStringValue:[NSString stringWithFormat:@"%.1f", (float)++counter / 10]];
 }
 

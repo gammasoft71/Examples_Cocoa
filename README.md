@@ -21,6 +21,8 @@ Shows how to use macOS AppKit Cocoa controls without StoryBoard only by programm
 
 [Label](src/Label) Shows how to create a Cocoa Label with NSTextField.
 
+[MainMenu](src/MainMenu) Shows how to create a Cocoa MainMenu with NSMenu and NSMenuItem.
+
 [RadioButton](src/RadioButton) Shows how to create a Cocoa RadioButton with NSButton.
 
 [TextBox](src/TextBox) Shows how to create a Cocoa TextBox with NSTextField.

@@ -21,6 +21,8 @@ add_subdirectory("src/Panel")
 add_subdirectory("src/GroupBox")
 add_subdirectory("src/TabControl")
 
+add_subdirectory("src/Timer")
+
 add_subdirectory("src/MessageBox")
 
 add_subdirectory("src/Drawing")

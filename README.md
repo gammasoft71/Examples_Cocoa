@@ -31,6 +31,8 @@ Shows how to use macOS AppKit Cocoa controls without StoryBoard only by programm
 
 [GroupBox](src/GroupBox) Shows how to create a simple Cocoa GroupBox with NSBox.
 
+[Panel](src/Panel) Shows how to create a simple Cocoa Panel with NSScrollView.
+
 [TabControl](src/TabControl) Shows how to create a simple Cocoa TabControl with TabPages with NSTabView and NSTabViewItem.
 
 ## Dialogs

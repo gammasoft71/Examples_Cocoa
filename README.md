@@ -21,6 +21,8 @@ Shows how to use macOS AppKit Cocoa controls without StoryBoard only by programm
 
 [Label](src/Label) Shows how to create a Cocoa Label with NSTextField.
 
+[TextBox](src/TextBox) Shows how to create a Cocoa TextBox with NSTextField.
+
 ## Containers
 
 [Form](src/Form) Shows how to create a simple Cocoa Form with NSWndow.

@@ -21,8 +21,6 @@ Shows how to use macOS AppKit Cocoa controls without StoryBoard only by programm
 
 [Label](src/Label) Shows how to create a Cocoa Label with NSTextField.
 
-[MainMenu](src/MainMenu) Shows how to create a Cocoa MainMenu with NSMenu and NSMenuItem.
-
 [ProgressBar](src/ProgressBar) Shows how to create a Cocoa ProgressBar with NSProgressIndicator.
 
 [RadioButton](src/RadioButton) Shows how to create a Cocoa RadioButton with NSButton.
@@ -41,12 +39,17 @@ Shows how to use macOS AppKit Cocoa controls without StoryBoard only by programm
 
 [TabControl](src/TabControl) Shows how to create a simple Cocoa TabControl with TabPages with NSTabView and NSTabViewItem.
 
+## Menus and toolbars
+
+[MainMenu](src/MainMenu) Shows how to create a Cocoa MainMenu with NSMenu and NSMenuItem.
+
 ## Components
 
 [Timer](src/Timer) Shows how to create a simple Cocoa Timer with NSTimer.
 
 ## Dialogs
 
+[ColorDialog](src/ColorDialog) Shows how to create a ColorDialog with NSColorPanel.
 [MessageBox](src/MessageBox) Shows how to create a MessageBox with NSAlert.
 
 ## Download

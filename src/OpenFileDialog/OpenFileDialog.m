@@ -38,9 +38,8 @@
   [openFileDialog setCanChooseFiles:YES];
   [openFileDialog setCanChooseDirectories:NO];
   [openFileDialog setAllowsMultipleSelection:NO];
+  [openFileDialog setAllowedFileTypes:[NSArray arrayWithObjects:@"txt", @"md", nil]];
   [openFileDialog setDirectoryURL:[NSURL fileURLWithPath:[NSSearchPathForDirectoriesInDomains(NSDesktopDirectory, NSUserDomainMask, YES) firstObject]]];
-  NSArray* fileTypes = [[NSArray alloc] initWithObjects:@"txt", @"md", nil];
-  [openFileDialog setAllowedFileTypes:fileTypes];
   
   NSModalResponse response = [openFileDialog runModal];
   if (response == NSModalResponseOK)

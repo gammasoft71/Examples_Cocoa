@@ -1,7 +1,13 @@
 cmake_minimum_required(VERSION 3.2)
 project(CocoaExamples)
 
-# Hzllo World
+if ("${CMAKE_BUILD_TYPE}" STREQUAL "")
+  set(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR})
+else()
+  set(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR}/${CMAKE_BUILD_TYPE})
+endif()
+
+# Hello World
 add_subdirectory("src/HelloWorld")
 
 # Application and messages
@@ -33,6 +39,7 @@ add_subdirectory("src/Timer")
 # Dialogs
 add_subdirectory("src/ColorDialog")
 add_subdirectory("src/MessageBox")
+add_subdirectory("src/FolderBrowserDialog")
 
 # Other
 add_subdirectory("src/Drawing")

@@ -53,6 +53,8 @@ Shows how to use macOS AppKit Cocoa controls without StoryBoard only by programm
 
 [MessageBox](src/MessageBox) Shows how to create a MessageBox with NSAlert.
 
+[FolderBrowserDialog](src/FolderBrowserDialog) Shows how to create a FolderBrowserDialog with NSOpenPanel.
+
 ## Download
 
 ``` shell

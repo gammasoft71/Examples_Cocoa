@@ -11,7 +11,7 @@
 @implementation Form
 - (instancetype)init {
   buttonShowMessage = [[[NSButton alloc] initWithFrame:NSMakeRect(10, 265, 100, 32)] autorelease];
-  [buttonShowMessage setTitle:@"colors"];
+  [buttonShowMessage setTitle:@"Color..."];
   [buttonShowMessage setBezelStyle:NSBezelStyleRounded];
   [buttonShowMessage setTarget:self];
   [buttonShowMessage setAction:@selector(OnButtonClick:)];

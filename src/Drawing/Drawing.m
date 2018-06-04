@@ -24,7 +24,7 @@
 
 int main(int argc, char* argv[]) {
   // Create Form
-  Form* form1 = [[[Form alloc] initWithContentRect:NSMakeRect(100, 100, 300, 300) styleMask:NSWindowStyleMaskTitled | NSWindowStyleMaskClosable | NSWindowStyleMaskResizable backing:NSBackingStoreBuffered defer:NO] autorelease];
+  Form* form1 = [[[Form alloc] initWithContentRect:NSMakeRect(100, 100, 300, 300) styleMask:NSWindowStyleMaskTitled | NSWindowStyleMaskClosable | NSWindowStyleMaskMiniaturizable | NSWindowStyleMaskResizable backing:NSBackingStoreBuffered defer:NO] autorelease];
   [form1 setTitle:@"Form Example"];
   [form1 setIsVisible:YES];
   

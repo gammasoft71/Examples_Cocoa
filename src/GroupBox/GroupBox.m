@@ -16,7 +16,7 @@
   groupBox2 = [[NSBox alloc] initWithFrame:NSMakeRect(325, 10, 305, 460)];
   [groupBox2 setTitle:@""];
 
-  [super initWithContentRect:NSMakeRect(100, 100, 640, 480) styleMask:NSWindowStyleMaskTitled | NSWindowStyleMaskClosable | NSWindowStyleMaskResizable backing:NSBackingStoreBuffered defer:NO];
+  [super initWithContentRect:NSMakeRect(100, 100, 640, 480) styleMask:NSWindowStyleMaskTitled | NSWindowStyleMaskClosable | NSWindowStyleMaskMiniaturizable | NSWindowStyleMaskResizable backing:NSBackingStoreBuffered defer:NO];
   [self setTitle:@"GroupBox example"];
   [[self contentView] addSubview:groupBox1];
   [[self contentView] addSubview:groupBox2];

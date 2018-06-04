@@ -16,7 +16,7 @@
   panel2 = [[NSScrollView alloc] initWithFrame:NSMakeRect(325, 10, 305, 460)];
   [panel2 setBorderType:NSBezelBorder];
 
-  [super initWithContentRect:NSMakeRect(100, 100, 640, 480) styleMask:NSWindowStyleMaskTitled | NSWindowStyleMaskClosable | NSWindowStyleMaskResizable backing:NSBackingStoreBuffered defer:NO];
+  [super initWithContentRect:NSMakeRect(100, 100, 640, 480) styleMask:NSWindowStyleMaskTitled | NSWindowStyleMaskClosable | NSWindowStyleMaskMiniaturizable | NSWindowStyleMaskResizable backing:NSBackingStoreBuffered defer:NO];
   [self setTitle:@"Panel example"];
   [[self contentView] addSubview:panel1];
   [[self contentView] addSubview:panel2];

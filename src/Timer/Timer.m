@@ -31,7 +31,7 @@
   [button setBezelStyle:NSBezelStyleRounded];
   [button setTitle:@"Start"];
   
-  [super initWithContentRect:NSMakeRect(100, 100, 230, 130) styleMask:NSWindowStyleMaskTitled | NSWindowStyleMaskClosable | NSWindowStyleMaskResizable backing:NSBackingStoreBuffered defer:NO];
+  [super initWithContentRect:NSMakeRect(100, 100, 230, 130) styleMask:NSWindowStyleMaskTitled | NSWindowStyleMaskClosable | NSWindowStyleMaskMiniaturizable | NSWindowStyleMaskResizable backing:NSBackingStoreBuffered defer:NO];
   [self setTitle:@"Label Example"];
   [[self contentView] addSubview:label];
   [[self contentView] addSubview:button];

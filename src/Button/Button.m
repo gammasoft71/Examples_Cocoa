@@ -29,7 +29,7 @@
 
   button2 = [[[NSButton alloc] initWithFrame:NSMakeRect(50, 125, 200, 75)] autorelease];
   [button2 setTitle:@"button2"];
-  [button2 setBezelStyle:NSSmallSquareBezelStyle];
+  [button2 setBezelStyle:NSBezelStyleSmallSquare];
   [button2 setTarget:self];
   [button2 setAction:@selector(OnButton2Click:)];
   [button2 setAutoresizingMask:NSViewMaxXMargin | NSViewMinYMargin];

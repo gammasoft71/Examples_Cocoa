@@ -37,7 +37,7 @@
   timer = [NSTimer timerWithTimeInterval:0.05f target:self selector:@selector(onTimerTick:) userInfo:progressBar4 repeats:YES];
   [[NSRunLoop mainRunLoop] addTimer:timer forMode:NSDefaultRunLoopMode];
   
-  [super initWithContentRect:NSMakeRect(100, 100, 300, 300) styleMask:NSWindowStyleMaskTitled | NSWindowStyleMaskClosable | NSWindowStyleMaskResizable backing:NSBackingStoreBuffered defer:NO];
+  [super initWithContentRect:NSMakeRect(100, 100, 300, 300) styleMask:NSWindowStyleMaskTitled | NSWindowStyleMaskClosable | NSWindowStyleMaskMiniaturizable | NSWindowStyleMaskResizable backing:NSBackingStoreBuffered defer:NO];
   [self setTitle:@"ProgressBar Example"];
   [[self contentView] addSubview:progressBar1];
   [[self contentView] addSubview:progressBar2];

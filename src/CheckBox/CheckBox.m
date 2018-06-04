@@ -32,7 +32,7 @@
   [checkBox3 setAutoresizingMask:NSViewMaxXMargin | NSViewMinYMargin];
   [checkBox3 setState:NSControlStateValueMixed];
 
-  [super initWithContentRect:NSMakeRect(100, 100, 300, 300) styleMask:NSWindowStyleMaskTitled | NSWindowStyleMaskClosable | NSWindowStyleMaskResizable backing:NSBackingStoreBuffered defer:NO];
+  [super initWithContentRect:NSMakeRect(100, 100, 300, 300) styleMask:NSWindowStyleMaskTitled | NSWindowStyleMaskClosable | NSWindowStyleMaskMiniaturizable | NSWindowStyleMaskResizable backing:NSBackingStoreBuffered defer:NO];
   [self setTitle:@"CheckBox example"];
   [[self contentView] addSubview:checkBox1];
   [[self contentView] addSubview:checkBox2];

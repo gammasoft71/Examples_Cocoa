@@ -12,11 +12,10 @@
   button = [[[NSButton alloc] initWithFrame:NSMakeRect(10, 443, 90, 32)] autorelease];
   [button setTitle:@"Close"];
   [button setBezelStyle:NSBezelStyleRounded];
-  [button setTarget:self];
-  [button setAction:@selector(windowShouldClose:)];
+  [button setAction:@selector(performClose:)];
   [button setAutoresizingMask:NSViewMaxXMargin | NSViewMinYMargin];
 
-  [super initWithContentRect:NSMakeRect(100, 100, 640, 480) styleMask:NSWindowStyleMaskTitled | NSWindowStyleMaskClosable | NSWindowStyleMaskResizable backing:NSBackingStoreBuffered defer:NO];
+  [super initWithContentRect:NSMakeRect(320, 200, 640, 480) styleMask:NSWindowStyleMaskTitled | NSWindowStyleMaskClosable | NSWindowStyleMaskMiniaturizable | NSWindowStyleMaskResizable backing:NSBackingStoreBuffered defer:NO];
   [self setTitle:@"Form example"];
   [[self contentView] addSubview:button];
   [self setIsVisible:YES];

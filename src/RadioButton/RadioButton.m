@@ -29,7 +29,7 @@
   [radioButton3 setAutoresizingMask:NSViewMaxXMargin | NSViewMinYMargin];
   [radioButton3 setState:NSControlStateValueOff];
 
-  [super initWithContentRect:NSMakeRect(100, 100, 300, 300) styleMask:NSWindowStyleMaskTitled | NSWindowStyleMaskClosable | NSWindowStyleMaskResizable backing:NSBackingStoreBuffered defer:NO];
+  [super initWithContentRect:NSMakeRect(100, 100, 300, 300) styleMask:NSWindowStyleMaskTitled | NSWindowStyleMaskClosable | NSWindowStyleMaskMiniaturizable | NSWindowStyleMaskResizable backing:NSBackingStoreBuffered defer:NO];
   [self setTitle:@"RadioButton example"];
   [[self contentView] addSubview:radioButton1];
   [[self contentView] addSubview:radioButton2];

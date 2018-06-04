@@ -57,6 +57,8 @@ Shows how to use macOS AppKit Cocoa controls without StoryBoard only by programm
 
 [MessageBox](src/MessageBox) Shows how to create a MessageBox with NSAlert.
 
+[SaveFileDialog](src/SaveFileDialog) Shows how to create an SaveFileDialog with NSSavePanel.
+
 ## Download
 
 ``` shell

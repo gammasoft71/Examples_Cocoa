@@ -12,21 +12,21 @@
 @implementation Form
 - (instancetype)init {
   button = [[[NSButton alloc] initWithFrame:NSMakeRect(10, 265, 100, 32)] autorelease];
-  [button setTitle:@"Folder..."];
+  [button setTitle:@"Open..."];
   [button setBezelStyle:NSBezelStyleRounded];
   [button setTarget:self];
   [button setAction:@selector(OnButtonClick:)];
   [button setAutoresizingMask:NSViewMaxXMargin | NSViewMinYMargin];
 
   label = [[[NSTextField alloc] initWithFrame:NSMakeRect(10, 235, 280, 20)] autorelease];
-  [label setStringValue:@"Path ="];
+  [label setStringValue:@"File ="];
   [label setBezeled:NO];
   [label setDrawsBackground:NO];
   [label setEditable:NO];
   [label setSelectable:NO];
 
   [super initWithContentRect:NSMakeRect(100, 100, 300, 300) styleMask:NSWindowStyleMaskTitled | NSWindowStyleMaskClosable | NSWindowStyleMaskMiniaturizable | NSWindowStyleMaskResizable backing:NSBackingStoreBuffered defer:NO];
-  [self setTitle:@"FolderBrowserDialog example"];
+  [self setTitle:@"OpenFileDialog example"];
   [[self contentView] addSubview:button];
   [[self contentView] addSubview:label];
   [self setIsVisible:YES];
@@ -34,15 +34,17 @@
 }
 
 - (IBAction) OnButtonClick:(id)sender {
-  NSOpenPanel* folderBrowserDialog = [[[NSOpenPanel alloc] init] autorelease];
-  [folderBrowserDialog setCanChooseFiles:NO];
-  [folderBrowserDialog setCanChooseDirectories:YES];
-  [folderBrowserDialog setAllowsMultipleSelection:NO];
-  [folderBrowserDialog setDirectoryURL:[NSURL fileURLWithPath:[NSSearchPathForDirectoriesInDomains(NSDesktopDirectory, NSUserDomainMask, YES) firstObject]]];
+  NSOpenPanel* openFileDialog = [[[NSOpenPanel alloc] init] autorelease];
+  [openFileDialog setCanChooseFiles:YES];
+  [openFileDialog setCanChooseDirectories:NO];
+  [openFileDialog setAllowsMultipleSelection:NO];
+  [openFileDialog setDirectoryURL:[NSURL fileURLWithPath:[NSSearchPathForDirectoriesInDomains(NSDesktopDirectory, NSUserDomainMask, YES) firstObject]]];
+  NSArray* fileTypes = [[NSArray alloc] initWithObjects:@"txt", @"md", nil];
+  [openFileDialog setAllowedFileTypes:fileTypes];
   
-  NSModalResponse response = [folderBrowserDialog runModal];
+  NSModalResponse response = [openFileDialog runModal];
   if (response == NSModalResponseOK)
-    [label setStringValue:[NSString stringWithFormat:@"Path = %@", [(NSURL*)[[folderBrowserDialog URLs] objectAtIndex:0] path]]];
+    [label setStringValue:[NSString stringWithFormat:@"File = %@", [(NSURL*)[[openFileDialog URLs] objectAtIndex:0] path]]];
 }
 
 - (void)changeColor:(id)sender {

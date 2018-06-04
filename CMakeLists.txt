@@ -38,8 +38,9 @@ add_subdirectory("src/Timer")
 
 # Dialogs
 add_subdirectory("src/ColorDialog")
-add_subdirectory("src/MessageBox")
 add_subdirectory("src/FolderBrowserDialog")
+add_subdirectory("src/OpenFileDialog")
+add_subdirectory("src/MessageBox")
 
 # Other
 add_subdirectory("src/Drawing")

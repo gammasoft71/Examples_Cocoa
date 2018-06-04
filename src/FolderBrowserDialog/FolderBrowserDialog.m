@@ -38,7 +38,7 @@
   [folderBrowserDialog setCanChooseFiles:NO];
   [folderBrowserDialog setCanChooseDirectories:YES];
   [folderBrowserDialog setAllowsMultipleSelection:NO];
-  [folderBrowserDialog setDirectoryURL:[NSURL fileURLWithPath:NSHomeDirectory()]];
+  [folderBrowserDialog setDirectoryURL:[NSURL fileURLWithPath:[NSSearchPathForDirectoriesInDomains(NSDesktopDirectory, NSUserDomainMask, YES) firstObject]]];
   
   NSModalResponse response = [folderBrowserDialog runModal];
   if (response == NSModalResponseOK)

@@ -28,7 +28,6 @@
   NSColorPanel* colorDialog = [NSColorPanel sharedColorPanel];
   [colorDialog setIsVisible:YES];
   [colorDialog setColor:[self backgroundColor]];
-  [colorDialog setAction:@selector(changeBackgroundColor:)];
 }
 
 - (void)changeColor:(id)sender {

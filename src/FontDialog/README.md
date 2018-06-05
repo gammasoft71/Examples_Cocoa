@@ -1,5 +1,5 @@
-# ColorDialog
+# FontDialog
 
-This example demonstrates the use of NSColorPanel dialog.
+This example demonstrates the use of NSFontPanel dialog and NSFontManager class.
 
-![GitHub Logo](../../docs/Pictures/ColorDialog.png)
+![GitHub Logo](../../docs/Pictures/FontDialog.png)

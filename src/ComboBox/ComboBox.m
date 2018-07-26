@@ -1,8 +1,7 @@
 #include <Cocoa/Cocoa.h>
 
 @interface Form : NSWindow {
-  NSTextField* textBox1;
-  NSTextField* textBox2;
+  NSComboBox* comboBox1;
 }
 - (instancetype)init;
 - (BOOL)windowShouldClose:(id)sender;
@@ -10,17 +9,15 @@
 
 @implementation Form
 - (instancetype)init {
-  textBox1 = [[[NSTextField alloc] initWithFrame:NSMakeRect(10, 270, 100, 20)] autorelease];
-  [textBox1 setStringValue:@"textBox1"];
-  
-  textBox2 = [[[NSTextField alloc] initWithFrame:NSMakeRect(10, 230, 100, 20)] autorelease];
-  [textBox2 setStringValue:@"textBox2"];
-  
+  comboBox1 = [[[NSComboBox alloc] initWithFrame:NSMakeRect(10, 260, 121, 26)] autorelease];
+  [comboBox1 addItemWithObjectValue:@"item1"];
+  [comboBox1 addItemWithObjectValue:@"item2"];
+  [comboBox1 addItemWithObjectValue:@"item3"];
+  [comboBox1 selectItemAtIndex:1];
+
   [super initWithContentRect:NSMakeRect(100, 100, 300, 300) styleMask:NSWindowStyleMaskTitled | NSWindowStyleMaskClosable | NSWindowStyleMaskMiniaturizable | NSWindowStyleMaskResizable backing:NSBackingStoreBuffered defer:NO];
-  [self setTitle:@"TextBox Example"];
-  [[self contentView] addSubview:textBox1];
-  [[self contentView] addSubview:textBox2];
-  [self makeFirstResponder:textBox2];
+  [self setTitle:@"ComboBox Example"];
+  [[self contentView] addSubview:comboBox1];
   [self setIsVisible:YES];
   return self;
 }

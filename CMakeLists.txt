@@ -17,6 +17,7 @@ add_subdirectory("src/ApplicationWithMessageLoop")
 # Common Controls
 add_subdirectory("src/Button")
 add_subdirectory("src/CheckBox")
+add_subdirectory("src/ComboBox")
 add_subdirectory("src/Label")
 add_subdirectory("src/ProgressBar")
 add_subdirectory("src/RadioButton")
@@ -26,8 +27,8 @@ add_subdirectory("src/TrackBar")
 # Containers
 add_subdirectory("src/ColoredTabPages")
 add_subdirectory("src/Form")
-add_subdirectory("src/Panel")
 add_subdirectory("src/GroupBox")
+add_subdirectory("src/Panel")
 add_subdirectory("src/TabControl")
 
 # Menus and Toolbars

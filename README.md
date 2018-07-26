@@ -19,6 +19,8 @@ Shows how to use macOS AppKit Cocoa controls without StoryBoard only by programm
 
 [CheckBox](src/CheckBox) Shows how to create a CheckBox with NSButton.
 
+[ComboBox](src/ComboBox) Shows how to create a ComboBox with NSComboBox.
+
 [Label](src/Label) Shows how to create a Label with NSTextField.
 
 [ProgressBar](src/ProgressBar) Shows how to create a ProgressBar with NSProgressIndicator.

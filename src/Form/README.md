@@ -4,7 +4,7 @@ This example demonstrates the use of NSWindow control.
 
 # Source
 
-[Form.cpp](./Form.cpp)
+[Form.m](./Form.m)
 
 [CMakeLists.txt](./CMakeLists.txt)
 

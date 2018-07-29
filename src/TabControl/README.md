@@ -4,7 +4,7 @@ This example demonstrates the use of NSTabView and NSTabViewItem controls.
 
 # Source
 
-[TabControl.cpp](./TabControl.cpp)
+[TabControl.m](./TabControl.m)
 
 [CMakeLists.txt](./CMakeLists.txt)
 

@@ -4,7 +4,7 @@ This example demonstrates the use of NSButton control.
 
 # Source
 
-[Button.cpp](./Button.cpp)
+[Button.m](./Button.m)
 
 [CMakeLists.txt](./CMakeLists.txt)
 

@@ -4,7 +4,7 @@ This example demonstrates the use of NSComboBox control.
 
 # Source
 
-[ComboBox.cpp](./ComboBox.cpp)
+[ComboBox.m](./ComboBox.m)
 
 [CMakeLists.txt](./CMakeLists.txt)
 

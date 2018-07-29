@@ -4,7 +4,7 @@ This example demonstrates the use of NSTimer componenent.
 
 # Source
 
-[Timer.cpp](./Timer.cpp)
+[Timer.m](./Timer.m)
 
 [CMakeLists.txt](./CMakeLists.txt)
 

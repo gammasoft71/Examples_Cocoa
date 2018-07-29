@@ -4,7 +4,7 @@ This example demonstrates the use of NSOpenPanel dialog.
 
 # Source
 
-[FolderBrowserDialog.cpp](./FolderBrowserDialog.cpp)
+[FolderBrowserDialog.m](./FolderBrowserDialog.m)
 
 [CMakeLists.txt](./CMakeLists.txt)
 

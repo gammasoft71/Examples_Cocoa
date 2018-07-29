@@ -4,7 +4,7 @@ This example demonstrates the use of NSSavePanel dialog.
 
 # Source
 
-[SaveFileDialog.cpp](./SaveFileDialog.cpp)
+[SaveFileDialog.m](./SaveFileDialog.m)
 
 [CMakeLists.txt](./CMakeLists.txt)
 

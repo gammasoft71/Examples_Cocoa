@@ -4,7 +4,7 @@ This example demonstrates the use of NSAlert dialog.
 
 # Source
 
-[MessageBox.cpp](./MessageBox.cpp)
+[MessageBox.m](./MessageBox.m)
 
 [CMakeLists.txt](./CMakeLists.txt)
 

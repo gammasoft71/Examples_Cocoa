@@ -4,7 +4,7 @@ This example demonstrates the use of NSSlider control.
 
 # Source
 
-[TrackBar.cpp](./TrackBar.cpp)
+[TrackBar.m](./TrackBar.m)
 
 [CMakeLists.txt](./CMakeLists.txt)
 

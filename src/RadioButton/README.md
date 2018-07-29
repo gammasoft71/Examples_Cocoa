@@ -4,7 +4,7 @@ This example demonstrates the use of NSButton control.
 
 # Source
 
-[RadioButton.cpp](./RadioButton.cpp)
+[RadioButton.m](./RadioButton.m)
 
 [CMakeLists.txt](./CMakeLists.txt)
 

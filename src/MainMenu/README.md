@@ -4,7 +4,7 @@ This example demonstrates the use of NSMenu and NSMEnuItem control.
 
 # Source
 
-[MainMenu.cpp](./MainMenu.cpp)
+[MainMenu.m](./MainMenu.m)
 
 [CMakeLists.txt](./CMakeLists.txt)
 

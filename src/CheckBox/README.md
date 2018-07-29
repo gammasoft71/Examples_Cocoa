@@ -4,7 +4,7 @@ This example demonstrates the use of NSButton control.
 
 # Source
 
-[CheckBox.cpp](./CheckBox.cpp)
+[CheckBox.m](./CheckBox.m)
 
 [CMakeLists.txt](./CMakeLists.txt)
 

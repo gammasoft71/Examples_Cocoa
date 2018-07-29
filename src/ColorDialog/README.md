@@ -4,7 +4,7 @@ This example demonstrates the use of NSColorPanel dialog.
 
 # Source
 
-[ColorDialog.cpp](./ColorDialog.cpp)
+[ColorDialog.m](./ColorDialog.m)
 
 [CMakeLists.txt](./CMakeLists.txt)
 

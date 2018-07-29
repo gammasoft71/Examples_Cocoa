@@ -4,7 +4,7 @@ This example demonstrates the use of NSTextField control.
 
 # Source
 
-[TextBox.cpp](./TextBox.cpp)
+[TextBox.m](./TextBox.m)
 
 [CMakeLists.txt](./CMakeLists.txt)
 

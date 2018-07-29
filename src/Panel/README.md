@@ -4,7 +4,7 @@ This example demonstrates the use of NSScrollView control.
 
 # Source
 
-[Panel.cpp](./Panel.cpp)
+[Panel.m](./Panel.m)
 
 [CMakeLists.txt](./CMakeLists.txt)
 

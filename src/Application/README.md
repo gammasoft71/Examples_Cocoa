@@ -4,7 +4,7 @@ This example demonstrates the use of NSApplication class.
 
 # Source
 
-[Application.cpp](./Application.cpp)
+[Application.m](./Application.m)
 
 [CMakeLists.txt](./CMakeLists.txt)
 

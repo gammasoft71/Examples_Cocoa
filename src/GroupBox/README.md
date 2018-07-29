@@ -4,7 +4,7 @@ This example demonstrates the use of NSBox control.
 
 # Source
 
-[GroupBox.cpp](./GroupBox.cpp)
+[GroupBox.m](./GroupBox.m)
 
 [CMakeLists.txt](./CMakeLists.txt)
 

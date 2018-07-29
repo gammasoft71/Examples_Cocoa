@@ -2,4 +2,12 @@
 
 This example demonstrates the use of NSColorPanel dialog.
 
+# Source
+
+[ColorDialog.cpp](./ColorDialog.cpp)
+
+[CMakeLists.txt](./CMakeLists.txt)
+
+# Output
+
 ![GitHub Logo](../../docs/Pictures/ColorDialog.png)

@@ -14,7 +14,7 @@
   [panel1 setBorderType:NSLineBorder];
   
   panel2 = [[NSScrollView alloc] initWithFrame:NSMakeRect(325, 10, 305, 460)];
-  [panel2 setBorderType:NSBezelBorder];
+  [panel2 setBorderType:NSGrooveBorder];
 
   [super initWithContentRect:NSMakeRect(100, 100, 640, 480) styleMask:NSWindowStyleMaskTitled | NSWindowStyleMaskClosable | NSWindowStyleMaskMiniaturizable | NSWindowStyleMaskResizable backing:NSBackingStoreBuffered defer:NO];
   [self setTitle:@"Panel example"];

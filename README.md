@@ -5,63 +5,63 @@ Shows how to use macOS AppKit Cocoa controls without StoryBoard only by programm
 
 ## Hello World
 
-["Hello World"](src/HelloWorld) The classic first application HelloWorld with NSTextField.
+["Hello World"](src/HelloWorld/README.md) The classic first application HelloWorld with NSTextField.
 
 ## Application and messages
 
-[Application](src/Application) Shows how to create an Application with NSApplication.
+[Application](src/Application/README.md) Shows how to create an Application with NSApplication.
 
-[Application with message loop](src/ApplicationWithMessageLoop) Shows how to create your own message loop and dispatcher with NSEvent.
+[Application with message loop](src/ApplicationWithMessageLoop/README.md) Shows how to create your own message loop and dispatcher with NSEvent.
 
 ## Common Controls
 
-[Button](src/Button) Shows how to create a Button and Event Click with NSButton.
+[Button](src/Button/README.md) Shows how to create a Button and Event Click with NSButton.
 
-[CheckBox](src/CheckBox) Shows how to create a CheckBox with NSButton.
+[CheckBox](src/CheckBox/README.md) Shows how to create a CheckBox with NSButton.
 
-[ComboBox](src/ComboBox) Shows how to create a ComboBox with NSComboBox.
+[ComboBox](src/ComboBox/README.md) Shows how to create a ComboBox with NSComboBox.
 
-[Label](src/Label) Shows how to create a Label with NSTextField.
+[Label](src/Label/README.md) Shows how to create a Label with NSTextField.
 
-[ProgressBar](src/ProgressBar) Shows how to create a ProgressBar with NSProgressIndicator.
+[ProgressBar](src/ProgressBar/README.md) Shows how to create a ProgressBar with NSProgressIndicator.
 
-[RadioButton](src/RadioButton) Shows how to create a RadioButton with NSButton.
+[RadioButton](src/RadioButton/README.md) Shows how to create a RadioButton with NSButton.
 
-[TextBox](src/TextBox) Shows how to create a TextBox with NSTextField.
+[TextBox](src/TextBox/README.md) Shows how to create a TextBox with NSTextField.
 
-[TrackBar](src/TrackBar) Shows how to create a TrackBar with NSSlider.
+[TrackBar](src/TrackBar/README.md) Shows how to create a TrackBar with NSSlider.
 
 ## Containers
 
-[Form](src/Form) Shows how to create a Form with NSWndow.
+[Form](src/Form/README.md) Shows how to create a Form with NSWndow.
 
-[GroupBox](src/GroupBox) Shows how to create a GroupBox with NSBox.
+[GroupBox](src/GroupBox/README.md) Shows how to create a GroupBox with NSBox.
 
-[Panel](src/Panel) Shows how to create a Panel with NSScrollView.
+[Panel](src/Panel/README.md) Shows how to create a Panel with NSScrollView.
 
-[TabControl](src/TabControl) Shows how to create a TabControl with TabPages with NSTabView and NSTabViewItem.
+[TabControl](src/TabControl/README.md) Shows how to create a TabControl with TabPages with NSTabView and NSTabViewItem.
 
 ## Menus and toolbars
 
-[MainMenu](src/MainMenu) Shows how to create a MainMenu with NSMenu and NSMenuItem.
+[MainMenu](src/MainMenu/README.md) Shows how to create a MainMenu with NSMenu and NSMenuItem.
 
 ## Components
 
-[Timer](src/Timer) Shows how to create a Timer with NSTimer.
+[Timer](src/Timer/README.md) Shows how to create a Timer with NSTimer.
 
 ## Dialogs
 
-[ColorDialog](src/ColorDialog) Shows how to create a ColorDialog with NSColorPanel.
+[ColorDialog](src/ColorDialog/README.md) Shows how to create a ColorDialog with NSColorPanel.
 
-[FolderBrowserDialog](src/FolderBrowserDialog) Shows how to create a FolderBrowserDialog with NSOpenPanel.
+[FolderBrowserDialog](src/FolderBrowserDialog/README.md) Shows how to create a FolderBrowserDialog with NSOpenPanel.
 
-[FontDialog](src/FontDialog) Shows how to create a FontDialog with NSFontPanel.
+[FontDialog](src/FontDialog/README.md) Shows how to create a FontDialog with NSFontPanel.
 
-[OpenFileDialog](src/OpenFileDialog) Shows how to create an OpenFileDialog with NSOpenPanel.
+[OpenFileDialog](src/OpenFileDialog/README.md) Shows how to create an OpenFileDialog with NSOpenPanel.
 
-[MessageBox](src/MessageBox) Shows how to create a MessageBox with NSAlert.
+[MessageBox](src/MessageBox/README.md) Shows how to create a MessageBox with NSAlert.
 
-[SaveFileDialog](src/SaveFileDialog) Shows how to create an SaveFileDialog with NSSavePanel.
+[SaveFileDialog](src/SaveFileDialog/README.md) Shows how to create an SaveFileDialog with NSSavePanel.
 
 ## Download
 

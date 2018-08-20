@@ -65,6 +65,10 @@ Shows how to use macOS AppKit Cocoa controls without StoryBoard only by programm
 
 [SaveFileDialog](src/SaveFileDialog/README.md) Shows how to create an SaveFileDialog with NSSavePanel.
 
+## Other
+
+[ColoredTabPages](src/ColoredTabPages/README.md) Shows how to create a TabControl with colored TabPages with NSTabView, NSTabViewItem and NSColor.
+
 ## Download
 
 ``` shell
@@ -82,6 +86,7 @@ cd build
 cmake .. -G "Xcode"
 open ./CocoaExamples.xcodeproj
 ```
+
 
 ## Remarks
 

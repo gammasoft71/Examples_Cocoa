@@ -11,4 +11,3 @@ This example demonstrates the use of NSProgressIndicator control.
 # Output
 
 ![GitHub Logo](../../docs/Pictures/ProgressBar.png)
-Î

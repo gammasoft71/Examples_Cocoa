@@ -23,6 +23,8 @@ Shows how to use macOS AppKit Cocoa controls without StoryBoard only by programm
 
 [Label](src/Label/README.md) Shows how to create a Label with NSTextField.
 
+[PictureBox](src/PictureBox/README.md) Shows how to create a PictureBox with NSImageView.
+
 [ProgressBar](src/ProgressBar/README.md) Shows how to create a ProgressBar with NSProgressIndicator.
 
 [RadioButton](src/RadioButton/README.md) Shows how to create a RadioButton with NSButton.
@@ -72,7 +74,7 @@ git clone https://github.com/gammasoft71/CocoaExamples CocoaExamples
 
 ## Generate and build
 
-To build this project, open "Terminal" and type following lines:
+To build this project, open "Terminal", go to your project folder and type following lines:
 
 ``` cmake
 mkdir build

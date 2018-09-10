@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.2)
+cmake_minimum_required(VERSION 3.0)
 project(CocoaExamples)
 
 if ("${CMAKE_BUILD_TYPE}" STREQUAL "")
@@ -12,6 +12,7 @@ add_subdirectory("src/HelloWorld")
 
 # Application and messages
 add_subdirectory("src/Application")
+add_subdirectory("src/ApplicationIdle")
 add_subdirectory("src/ApplicationWithMessageLoop")
 
 # Common Controls

@@ -1,4 +1,6 @@
+#include <Foundation/Foundation.h>
 #include <Cocoa/Cocoa.h>
+#include <mach/mach_time.h>
 
 NSString* NSEventTypeToNSString(NSEventType eventType);
 NSString* NSEventModifierFlagsToNSString(NSEventModifierFlags modifierFlags);
@@ -11,6 +13,10 @@ int main(int argc, char* argv[]) {
 
   NSAutoreleasePool* pool = [[NSAutoreleasePool alloc] init];
   [NSApp finishLaunching];
+
+  mach_timebase_info_data_t timeBaseInfo;
+  mach_timebase_info(&timeBaseInfo);
+
   while (true) {
     [pool release];
     pool = [[NSAutoreleasePool alloc] init];
@@ -21,8 +27,15 @@ int main(int argc, char* argv[]) {
       [NSApp updateWindows];
     } else {
       // idle...
+      static uint64_t lastidleTime = 0;
+      uint64_t elapsedTime = (mach_absolute_time() - lastidleTime) * timeBaseInfo.numer / timeBaseInfo.denom / 1000000;
+
       static int counter = 0;
-      [form1 setTitle:[NSString stringWithFormat:@"%d", ++counter]];
+
+      if (elapsedTime >= 100) {
+        [form1 setTitle:[NSString stringWithFormat:@"%d", ++counter]];
+        lastidleTime = mach_absolute_time();
+      }
     }
   }
   [pool release];

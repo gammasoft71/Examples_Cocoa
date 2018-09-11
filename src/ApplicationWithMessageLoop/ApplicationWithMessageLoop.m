@@ -12,26 +12,17 @@ int main(int argc, char* argv[]) {
   // Creates your own message loop
   NSAutoreleasePool* pool = [[NSAutoreleasePool alloc] init];
   [NSApp finishLaunching];
-  bool hasIdle = true;
   while (true) {
     [pool release];
     pool = [[NSAutoreleasePool alloc] init];
     
-    NSEvent* event = [NSApp nextEventMatchingMask:NSEventMaskAny untilDate: hasIdle ? [NSDate distantPast] : [NSDate distantFuture] inMode:NSDefaultRunLoopMode dequeue:YES];
-    if (event != nil) {
-      // --> run your own dispatcher...
-      NSLog(@"Event [type=%@ location={%d, %d} modifierFlags={%@}]", NSEventTypeToNSString([event type]), (int)[event locationInWindow].x, (int)[event locationInWindow].y, NSEventModifierFlagsToNSString([event modifierFlags]));
-      // <--
-      
-      [NSApp sendEvent:event];
-      [NSApp updateWindows];
-    } else if (hasIdle) {
-      // --> run idle method...
-      // remove comment to see idle evolution
-      //static int idleCounter = 0;
-      //NSLog(@"Idle %d", ++idleCounter);
-      // <--
-    }
+    NSEvent* event = [NSApp nextEventMatchingMask:NSEventMaskAny untilDate: [NSDate distantFuture] inMode:NSDefaultRunLoopMode dequeue:YES];
+    // --> run your own dispatcher...
+    NSLog(@"Event [type=%@ location={%d, %d} modifierFlags={%@}]", NSEventTypeToNSString([event type]), (int)[event locationInWindow].x, (int)[event locationInWindow].y, NSEventModifierFlagsToNSString([event modifierFlags]));
+    // <--
+    
+    [NSApp sendEvent:event];
+    [NSApp updateWindows];
   }
   [pool release];
 }

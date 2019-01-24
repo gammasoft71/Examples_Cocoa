@@ -10,4 +10,4 @@ This example demonstrates the use of NSColorPanel dialog.
 
 # Output
 
-![GitHub Logo](../../docs/Pictures/ColorDialog.png)
+![Screenshot](../../docs/Pictures/ColorDialog.png)

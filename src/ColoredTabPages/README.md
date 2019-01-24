@@ -10,4 +10,4 @@ This example demonstrates the use of NSTabView, colored NSTabViewItem controls a
 
 # Output
 
-![GitHub Logo](../../docs/Pictures/ColoredTabPages.png)
+![Screenshot](../../docs/Pictures/ColoredTabPages.png)

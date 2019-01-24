@@ -2,4 +2,4 @@
 
 This example demonstrates the use of NSTableView control.
 
-![GitHub Logo](../../docs/Pictures/ListBox.png)
+![Screenshot](../../docs/Pictures/ListBox.png)

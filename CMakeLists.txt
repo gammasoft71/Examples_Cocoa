@@ -1,4 +1,5 @@
-cmake_minimum_required(VERSION 3.0)
+cmake_minimum_required(VERSION 3.1)
+
 project(CocoaExamples)
 
 if ("${CMAKE_BUILD_TYPE}" STREQUAL "")
@@ -50,3 +51,4 @@ add_subdirectory("src/SaveFileDialog")
 
 # Other
 add_subdirectory("src/Drawing")
+add_subdirectory("src/FormAndMessages")

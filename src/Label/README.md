@@ -10,4 +10,4 @@ This example demonstrates the use of NSTextField control.
 
 # Output
 
-![GitHub Logo](../../docs/Pictures/Label.png)
+![Screenshot](../../docs/Pictures/Label.png)

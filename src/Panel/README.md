@@ -10,4 +10,4 @@ This example demonstrates the use of NSScrollView control.
 
 # Output
 
-![GitHub Logo](../../docs/Pictures/Panel.png)
+![Screenshot](../../docs/Pictures/Panel.png)

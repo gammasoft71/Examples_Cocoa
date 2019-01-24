@@ -10,4 +10,4 @@ This example demonstrates the use of NSTimer componenent.
 
 # Output
 
-![GitHub Logo](../../docs/Pictures/Timer.png)
+![Screenshot](../../docs/Pictures/Timer.png)

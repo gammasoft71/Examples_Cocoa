@@ -10,4 +10,4 @@ This example demonstrates the use of NSTabView and NSTabViewItem controls.
 
 # Output
 
-![GitHub Logo](../../docs/Pictures/TabControl.png)
+![Screenshot](../../docs/Pictures/TabControl.png)

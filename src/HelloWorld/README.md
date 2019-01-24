@@ -10,4 +10,4 @@ The classic first application "Hello World".
 
 # Output
 
-![GitHub Logo](../../docs/Pictures/HelloWorld.png)
+![Screenshot](../../docs/Pictures/HelloWorld.png)

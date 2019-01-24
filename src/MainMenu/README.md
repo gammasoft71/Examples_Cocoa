@@ -10,4 +10,4 @@ This example demonstrates the use of NSMenu and NSMEnuItem control.
 
 # Output
 
-![GitHub Logo](../../docs/Pictures/MainMenu.png)
+![Screenshot](../../docs/Pictures/MainMenu.png)

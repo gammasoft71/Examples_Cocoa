@@ -30,8 +30,10 @@
   [alert addButtonWithTitle:@"Yes"];
   [alert addButtonWithTitle:@"No"];
   [alert beginSheetModalForWindow:self completionHandler:^(NSModalResponse returnCode) {
-    if (returnCode == NSAlertFirstButtonReturn)
-      [NSApp terminate:sender];
+    if (returnCode == NSAlertFirstButtonReturn) {
+      [sender close];
+      [NSApp stop:sender];
+    }
   }];
   return NO;
 }

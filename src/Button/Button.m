@@ -1,6 +1,6 @@
 #include <Cocoa/Cocoa.h>
 
-@interface Form : NSWindow {
+@interface Window : NSWindow {
   NSButton* button1;
   NSButton* button2;
   NSTextField* label1;
@@ -15,12 +15,12 @@
 - (IBAction) OnButton2Click:(id)sender;
 @end
 
-@implementation Form
+@implementation Window
 - (instancetype) init {
   button1Clicked = 0;
   button2Clicked = 0;
 
-  button1 = [[[NSButton alloc] initWithFrame:NSMakeRect(50, 220, 90, 32)] autorelease];
+  button1 = [[[NSButton alloc] initWithFrame:NSMakeRect(50, 225, 90, 25)] autorelease];
   [button1 setTitle:@"button1"];
   [button1 setBezelStyle:NSBezelStyleRounded];
   [button1 setTarget:self];
@@ -29,7 +29,7 @@
 
   button2 = [[[NSButton alloc] initWithFrame:NSMakeRect(50, 125, 200, 75)] autorelease];
   [button2 setTitle:@"button2"];
-  [button2 setBezelStyle:NSBezelStyleSmallSquare];
+  [button2 setBezelStyle:NSBezelStyleRegularSquare];
   [button2 setTarget:self];
   [button2 setAction:@selector(OnButton2Click:)];
   [button2 setAutoresizingMask:NSViewMaxXMargin | NSViewMinYMargin];
@@ -72,8 +72,7 @@
 @end
 
 int main(int argc, char* argv[]) {
-  // Creates Application
   [NSApplication sharedApplication];
-  [[[[Form alloc] init] autorelease] makeMainWindow];
+  [[[[Window alloc] init] autorelease] makeMainWindow];
   [NSApp run];
 }

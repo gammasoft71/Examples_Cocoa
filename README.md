@@ -29,6 +29,10 @@ Shows how to use macOS AppKit Cocoa controls without StoryBoard only by programm
 
 [RadioButton](src/RadioButton/README.md) Shows how to create a RadioButton with NSButton.
 
+[SwitchButton](src/SwitchButton/README.md) Shows how to create a SwitchButton with NSSwitch.
+
+[ToggleButton](src/ToggleButton/README.md) Shows how to create a ToggleButton with NSButton.
+
 [TextBox](src/TextBox/README.md) Shows how to create a TextBox with NSTextField.
 
 [TrackBar](src/TrackBar/README.md) Shows how to create a TrackBar with NSSlider.

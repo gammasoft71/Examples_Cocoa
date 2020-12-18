@@ -10,4 +10,4 @@ This example demonstrates the use of NSSlider control.
 
 # Output
 
-![Screenshot](../../docs/Pictures/TrackBar.png)
+![Screenshot](../../../docs/Pictures/TrackBar.png)

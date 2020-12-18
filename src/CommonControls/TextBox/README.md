@@ -10,4 +10,4 @@ This example demonstrates the use of NSTextField control.
 
 # Output
 
-![Screenshot](../../docs/Pictures/TextBox.png)
+![Screenshot](../../../docs/Pictures/TextBox.png)

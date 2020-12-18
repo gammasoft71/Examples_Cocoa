@@ -10,4 +10,4 @@ This example demonstrates the use of NSComboBox control.
 
 # Output
 
-![Screenshot](../../docs/Pictures/ComboBox.png)
+![Screenshot](../../../docs/Pictures/ComboBox.png)

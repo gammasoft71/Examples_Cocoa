@@ -10,4 +10,4 @@ This example demonstrates the use of NSButton control.
 
 # Output
 
-![Screenshot](../../docs/Pictures/Button.png)
+![Screenshot](../../../docs/Pictures/Button.png)

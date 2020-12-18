@@ -10,4 +10,4 @@ This example demonstrates the use of NSImageView control.
 
 # Output
 
-![Screenshot](../../docs/Pictures/PictureBox.png)
+![Screenshot](../../../docs/Pictures/PictureBox.png)

@@ -1,6 +1,6 @@
 #include <Cocoa/Cocoa.h>
 
-@interface Form : NSWindow {
+@interface Window : NSWindow {
   NSTextField* label;
   NSButton* button;
   NSTimer* timer;
@@ -12,7 +12,7 @@
 - (BOOL)windowShouldClose:(id)sender;
 @end
 
-@implementation Form
+@implementation Window
 - (instancetype)init {
   counter = 0;
   
@@ -23,7 +23,7 @@
   [label setDrawsBackground:NO];
   [label setEditable:NO];
   [label setSelectable:NO];
-  [label setTextColor:[NSColor colorWithCalibratedRed:0.117f green:0.565f blue:1.0f alpha:1.0f]];
+  [label setTextColor:[NSColor colorWithRed:0.117 green:0.565 blue:1.0 alpha:1.0]];
   [label setFont:[[NSFontManager sharedFontManager] convertFont:[[NSFontManager sharedFontManager] convertFont:[NSFont fontWithName:@"Arial" size:64] toHaveTrait:NSFontBoldTrait] toHaveTrait:NSFontItalicTrait]];
 
   button = [[[NSButton alloc] initWithFrame:NSMakeRect(10, 10, 90, 32)] autorelease];
@@ -62,6 +62,6 @@
 
 int main(int argc, char* argv[]) {
   [NSApplication sharedApplication];
-  [[[[Form alloc] init] autorelease] makeMainWindow];
+  [[[[Window alloc] init] autorelease] makeMainWindow];
   [NSApp run];
 }

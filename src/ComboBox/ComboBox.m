@@ -17,7 +17,7 @@
   [comboBox1 setTarget:self];
   [comboBox1 setAction:@selector(OnComboBox1SelectedItemChange)];
   //[[comboBox1 delegate] comboBoxSelectionIsChanging: ];
-  [comboBox1 setDelegate:self];
+  //[comboBox1 setDelegate:self];
   [comboBox1 selectItemAtIndex:1];
   
   comboBox2 = [[[NSComboBox alloc] initWithFrame:NSMakeRect(10, 220, 121, 26)] autorelease];

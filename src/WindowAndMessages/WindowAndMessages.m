@@ -1,7 +1,7 @@
 #include <Cocoa/Cocoa.h>
 #include <syslog.h>
 
-@interface Form : NSWindow {
+@interface Window : NSWindow {
 }
 - (instancetype)init;
 - (void)windowDidDeMiniaturize:(NSNotification*)sender;
@@ -13,10 +13,10 @@
 - (BOOL)windowShouldClose:(NSWindow*)sender;
 @end
 
-@implementation Form
+@implementation Window
 - (instancetype)init {
   [super initWithContentRect:NSMakeRect(100, 600, 300, 300) styleMask:NSWindowStyleMaskTitled | NSWindowStyleMaskClosable | NSWindowStyleMaskMiniaturizable | NSWindowStyleMaskResizable backing:NSBackingStoreBuffered defer:NO];
-  [self setTitle:@"Form and Messages"];
+  [self setTitle:@"Window and Messages"];
   [self setIsVisible:YES];
 
   [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(windowDidEnterFullScreen:) name:NSWindowDidEnterFullScreenNotification object:self];
@@ -62,6 +62,6 @@
 
 int main(int argc, char* argv[]) {
   [NSApplication sharedApplication];
-  [[[[Form alloc] init] autorelease] makeMainWindow];
+  [[[[Window alloc] init] autorelease] makeMainWindow];
   [NSApp run];
 }

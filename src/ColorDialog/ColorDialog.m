@@ -1,6 +1,6 @@
 #include <Cocoa/Cocoa.h>
 
-@interface Form : NSWindow {
+@interface Window : NSWindow {
   NSButton* buttonShowMessage;
 }
 - (IBAction) OnButtonClick:(id)sender;
@@ -8,7 +8,7 @@
 - (BOOL)windowShouldClose:(id)sender;
 @end
 
-@implementation Form
+@implementation Window
 - (instancetype)init {
   buttonShowMessage = [[[NSButton alloc] initWithFrame:NSMakeRect(10, 265, 100, 32)] autorelease];
   [buttonShowMessage setTitle:@"Color..."];
@@ -43,6 +43,6 @@
 int main(int argc, char* argv[]) {
 
   [NSApplication sharedApplication];
-  [[[[Form alloc] init] autorelease] makeMainWindow];
+  [[[[Window alloc] init] autorelease] makeMainWindow];
   [NSApp run];
 }

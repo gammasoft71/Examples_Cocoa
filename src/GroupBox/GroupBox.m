@@ -1,6 +1,6 @@
 #include <Cocoa/Cocoa.h>
 
-@interface Form : NSWindow {
+@interface Window : NSWindow {
   NSBox* groupBox1;
   NSBox* groupBox2;
 }
@@ -8,7 +8,7 @@
 - (BOOL)windowShouldClose:(id)sender;
 @end
 
-@implementation Form
+@implementation Window
 - (instancetype)init {
   groupBox1 = [[NSBox alloc] initWithFrame:NSMakeRect(10, 10, 305, 460)];
   [groupBox1 setTitle:@"GroupBox 1"];
@@ -32,6 +32,6 @@
 
 int main(int argc, char* argv[]) {
   [NSApplication sharedApplication];
-  [[[[Form alloc] init] autorelease] makeMainWindow];
+  [[[[Window alloc] init] autorelease] makeMainWindow];
   [NSApp run];
 }

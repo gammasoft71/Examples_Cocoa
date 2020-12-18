@@ -1,6 +1,6 @@
 #include <Cocoa/Cocoa.h>
 
-@interface Form : NSWindow {
+@interface Window : NSWindow {
   NSSlider* trackBar;
   NSProgressIndicator* progressBar;
   NSTextField* label;
@@ -10,9 +10,9 @@
 - (BOOL)windowShouldClose:(id)sender;
 @end
 
-@implementation Form
+@implementation Window
 - (instancetype)init {
-  trackBar = [[[NSSlider alloc] initWithFrame:NSMakeRect(20, 215, 200, 20)] autorelease];
+  trackBar = [[[NSSlider alloc] initWithFrame:NSMakeRect(20, 215, 200, 25)] autorelease];
   [trackBar setAction:@selector(valueChanged:)];
   [trackBar setMaxValue:200];
   [trackBar setDoubleValue:100];
@@ -51,6 +51,6 @@
 
 int main(int argc, char* argv[]) {
   [NSApplication sharedApplication];
-  [[[[Form alloc] init] autorelease] makeMainWindow];
+  [[[[Window alloc] init] autorelease] makeMainWindow];
   [NSApp run];
 }

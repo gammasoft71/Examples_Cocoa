@@ -67,7 +67,7 @@
 }
 
 - (IBAction) OnButton2Click:(id)sender {
-  [label2 setStringValue:[NSString stringWithFormat:@"button1 clicked %d times", ++button2Clicked]];
+  [label2 setStringValue:[NSString stringWithFormat:@"button2 clicked %d times", ++button2Clicked]];
 }
 @end
 

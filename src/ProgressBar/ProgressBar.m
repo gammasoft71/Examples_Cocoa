@@ -1,6 +1,6 @@
 #include <Cocoa/Cocoa.h>
 
-@interface Form : NSWindow {
+@interface Window : NSWindow {
   NSProgressIndicator* progressBar1;
   NSProgressIndicator* progressBar2;
   NSProgressIndicator* progressBar3;
@@ -13,7 +13,7 @@
 - (BOOL)windowShouldClose:(id)sender;
 @end
 
-@implementation Form
+@implementation Window
 - (instancetype)init {
   progressBar1 = [[[NSProgressIndicator alloc] initWithFrame:NSMakeRect(50, 230, 200, 20)] autorelease];
   [progressBar1 setIndeterminate:NO];
@@ -60,6 +60,6 @@
 
 int main(int argc, char* argv[]) {
   [NSApplication sharedApplication];
-  [[[[Form alloc] init] autorelease] makeMainWindow];
+  [[[[Window alloc] init] autorelease] makeMainWindow];
   [NSApp run];
 }

@@ -1,13 +1,13 @@
 #include <Cocoa/Cocoa.h>
 
-@interface Form : NSWindow {
+@interface Window : NSWindow {
   NSButton* button;
 }
 - (instancetype)init;
 - (BOOL)windowShouldClose:(id)sender;
 @end
 
-@implementation Form
+@implementation Window
 - (instancetype)init {
   button = [[[NSButton alloc] initWithFrame:NSMakeRect(10, 443, 90, 32)] autorelease];
   [button setTitle:@"Close"];
@@ -16,7 +16,7 @@
   [button setAutoresizingMask:NSViewMaxXMargin | NSViewMinYMargin];
 
   [super initWithContentRect:NSMakeRect(320, 200, 640, 480) styleMask:NSWindowStyleMaskTitled | NSWindowStyleMaskClosable | NSWindowStyleMaskMiniaturizable | NSWindowStyleMaskResizable backing:NSBackingStoreBuffered defer:NO];
-  [self setTitle:@"Form example"];
+  [self setTitle:@"Window example"];
   [[self contentView] addSubview:button];
   [self setIsVisible:YES];
   return self;
@@ -24,7 +24,7 @@
 
 - (BOOL)windowShouldClose:(id)sender {
   NSAlert* alert = [[NSAlert alloc] init];
-  [alert setMessageText:@"Close Form"];
+  [alert setMessageText:@"Close Window"];
   [alert setInformativeText:@"Are you sure you want exit?"];
   [alert setAlertStyle:NSAlertStyleWarning];
   [alert addButtonWithTitle:@"Yes"];
@@ -41,6 +41,6 @@
 
 int main(int argc, char* argv[]) {
   [NSApplication sharedApplication];
-  [[[[Form alloc] init] autorelease] makeMainWindow];
+  [[[[Window alloc] init] autorelease] makeMainWindow];
   [NSApp run];
 }

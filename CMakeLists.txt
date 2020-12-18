@@ -2,12 +2,6 @@ cmake_minimum_required(VERSION 3.1)
 
 project(CocoaExamples)
 
-if ("${CMAKE_BUILD_TYPE}" STREQUAL "")
-  set(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR})
-else()
-  set(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR}/${CMAKE_BUILD_TYPE})
-endif()
-
 # Hello World
 add_subdirectory("src/HelloWorld")
 
@@ -32,7 +26,7 @@ add_subdirectory(src/TrackBar)
 
 # Containers
 add_subdirectory(src/ColoredTabPages)
-add_subdirectory(src/Form)
+add_subdirectory(src/Window)
 add_subdirectory(src/GroupBox)
 add_subdirectory(src/Panel)
 add_subdirectory(src/TabControl)
@@ -53,4 +47,4 @@ add_subdirectory(src/SaveFileDialog)
 
 # Other
 add_subdirectory(src/Drawing)
-add_subdirectory(src/FormAndMessages)
+add_subdirectory(src/WindowAndMessages)

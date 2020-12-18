@@ -1,6 +1,6 @@
 #include <Cocoa/Cocoa.h>
 
-@interface Form : NSWindow {
+@interface Window : NSWindow {
   NSButton* button;
   NSTextField* label;
 }
@@ -9,7 +9,7 @@
 - (BOOL)windowShouldClose:(id)sender;
 @end
 
-@implementation Form
+@implementation Window
 - (instancetype)init {
   button = [[[NSButton alloc] initWithFrame:NSMakeRect(10, 365, 100, 32)] autorelease];
   [button setTitle:@"Font..."];
@@ -61,6 +61,6 @@
 int main(int argc, char* argv[]) {
 
   [NSApplication sharedApplication];
-  [[[[Form alloc] init] autorelease] makeMainWindow];
+  [[[[Window alloc] init] autorelease] makeMainWindow];
   [NSApp run];
 }

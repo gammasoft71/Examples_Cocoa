@@ -1,16 +1,16 @@
 #include <Cocoa/Cocoa.h>
 
-@interface Form : NSWindow
+@interface Window : NSWindow
 - (instancetype)initWithContentRect:(NSRect)contentRect styleMask:(NSWindowStyleMask)style backing:(NSBackingStoreType)backingStoreType defer:(BOOL)flag;
 - (BOOL)windowShouldClose:(id)sender;
 @end
 
-@implementation Form
+@implementation Window
 - (instancetype)initWithContentRect:(NSRect)contentRect styleMask:(NSWindowStyleMask)style backing:(NSBackingStoreType)backingStoreType defer:(BOOL)flag {
   [super initWithContentRect:contentRect styleMask:style backing:backingStoreType defer:flag];
 
   NSColor * white = [NSColor greenColor];
-  NSRect rect1 = NSMakeRect ( 21,21,210,210 );
+  NSRect rect1 = NSMakeRect (21, 21, 210, 210);
   [white set];
   NSRectFill (rect1);
 
@@ -23,17 +23,17 @@
 @end
 
 int main(int argc, char* argv[]) {
-  // Create Form
-  Form* form1 = [[[Form alloc] initWithContentRect:NSMakeRect(100, 100, 300, 300) styleMask:NSWindowStyleMaskTitled | NSWindowStyleMaskClosable | NSWindowStyleMaskMiniaturizable | NSWindowStyleMaskResizable backing:NSBackingStoreBuffered defer:NO] autorelease];
-  [form1 setTitle:@"Form Example"];
-  [form1 setIsVisible:YES];
+  // Create Window
+  Window* window1 = [[[Window alloc] initWithContentRect:NSMakeRect(100, 100, 300, 300) styleMask:NSWindowStyleMaskTitled | NSWindowStyleMaskClosable | NSWindowStyleMaskMiniaturizable | NSWindowStyleMaskResizable backing:NSBackingStoreBuffered defer:NO] autorelease];
+  [window1 setTitle:@"Drawing Example"];
+  [window1 setIsVisible:YES];
   
   // Creates Application and asociate menubar and specific menus.
   [NSApplication sharedApplication];
 
   // Set window as mainWindow
-  [form1 makeMainWindow];
-  [form1 makeKeyWindow];
+  [window1 makeMainWindow];
+  [window1 makeKeyWindow];
   
   // Creates your own message loop
   NSAutoreleasePool* pool = [[NSAutoreleasePool alloc] init];

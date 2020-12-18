@@ -1,13 +1,13 @@
 #include <Cocoa/Cocoa.h>
 
-@interface Form : NSWindow {
+@interface Window : NSWindow {
   NSImageView* pictureBox1;
 }
 - (instancetype)init;
 - (BOOL)windowShouldClose:(id)sender;
 @end
 
-@implementation Form
+@implementation Window
 - (instancetype)init {
   pictureBox1 = [[[NSImageView alloc] initWithFrame:NSMakeRect(10, 10, 280, 280)] autorelease];
   [pictureBox1 setImage:[NSImage imageNamed:@"Logo.png"]];
@@ -28,6 +28,6 @@
 
 int main(int argc, char* argv[]) {
   [NSApplication sharedApplication];
-  [[[[Form alloc] init] autorelease] makeMainWindow];
+  [[[[Window alloc] init] autorelease] makeMainWindow];
   [NSApp run];
 }

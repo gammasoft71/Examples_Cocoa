@@ -1,6 +1,6 @@
 #include <Cocoa/Cocoa.h>
 
-@interface Form : NSWindow {
+@interface Window : NSWindow {
   NSTabViewItem* tabPage1;
   NSTabViewItem* tabPage2;
   NSTabViewItem* tabPage3;
@@ -10,7 +10,7 @@
 - (BOOL)windowShouldClose:(id)sender;
 @end
 
-@implementation Form
+@implementation Window
 - (instancetype)init {
   NSTabViewItem* tabPage1 = [[NSTabViewItem alloc] init];
   [tabPage1 setLabel:@"tabPage1"];
@@ -41,6 +41,6 @@
 
 int main(int argc, char* argv[]) {
   [NSApplication sharedApplication];
-  [[[[Form alloc] init] autorelease] makeMainWindow];
+  [[[[Window alloc] init] autorelease] makeMainWindow];
   [NSApp run];
 }

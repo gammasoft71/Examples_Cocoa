@@ -1,13 +1,13 @@
 #include <Cocoa/Cocoa.h>
 
-@interface Form : NSWindow {
+@interface Window : NSWindow {
   NSButton* buttonShowMessage;
 }
 - (IBAction) OnButtonClick:(id)sender;
 - (BOOL)windowShouldClose:(id)sender;
 @end
 
-@implementation Form
+@implementation Window
 - (instancetype)init {
   buttonShowMessage = [[[NSButton alloc] initWithFrame:NSMakeRect(10, 265, 100, 32)] autorelease];
   [buttonShowMessage setTitle:@"MessageBox"];
@@ -26,9 +26,9 @@
   NSAlert* alert = [[NSAlert alloc] init];
   [alert setMessageText:@"Message"];
   [alert setInformativeText:@"Hello, World!"];
-  [alert setAlertStyle:NSAlertStyleWarning];
+  [alert setAlertStyle:NSAlertStyleCritical];
   [alert addButtonWithTitle:@"OK"];
-  [alert addButtonWithTitle:@"Cancel"];
+  //[alert addButtonWithTitle:@"Cancel"];
   [alert beginSheetModalForWindow:self completionHandler:^(NSModalResponse returnCode) {}];
 }
 - (BOOL)windowShouldClose:(id)sender {
@@ -40,6 +40,6 @@
 int main(int argc, char* argv[]) {
 
   [NSApplication sharedApplication];
-  [[[[Form alloc] init] autorelease] makeMainWindow];
+  [[[[Window alloc] init] autorelease] makeMainWindow];
   [NSApp run];
 }

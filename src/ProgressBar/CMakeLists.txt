@@ -1,8 +1,15 @@
-Project(ProgressBar VERSION 1.0.0)
-add_executable(ProgressBar MACOSX_BUNDLE ProgressBar.m)
-set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -framework Cocoa")
+cmake_minimum_required(VERSION 3.1)
 
+# Project
+Project(ProgressBar VERSION 1.0.0)
+find_library(COCOA_LIBRARY REQUIRED)
+
+# Options
 set(MACOSX_BUNDLE_BUNDLE_VERSION ${PROJECT_VERSION})
-set(MACOSX_BUNDLE_COPYRIGHT "© 2018 by Gammasoft")
+set(MACOSX_BUNDLE_COPYRIGHT "© 2020 by Gammasoft")
 set(MACOSX_BUNDLE_INFO_STRING "This example shows how to use Cocoa ProgressBar")
 set(MACOSX_BUNDLE_GUI_IDENTIFIER "org.gammasoft.CocoaExamples.ProgressBar")
+
+# Application
+add_executable(${PROJECT_NAME} MACOSX_BUNDLE ProgressBar.m)
+target_link_libraries(${PROJECT_NAME} ${COCOA_LIBRARY})

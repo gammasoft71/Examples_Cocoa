@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.1)
+
+project(CommonDialogs)
+
+add_subdirectory(ColorDialog)
+add_subdirectory(FolderBrowserDialog)
+add_subdirectory(FontDialog)
+add_subdirectory(OpenFileDialog)
+add_subdirectory(MessageBox)
+add_subdirectory(SaveFileDialog)

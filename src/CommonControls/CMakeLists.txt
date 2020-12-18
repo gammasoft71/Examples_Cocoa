@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 3.1)
+
+project(CommonConttrols)
+
+add_subdirectory(Button)
+add_subdirectory(CheckBox)
+add_subdirectory(ComboBox)
+add_subdirectory(Label)
+add_subdirectory(ListBox)
+add_subdirectory(PictureBox)
+add_subdirectory(ProgressBar)
+add_subdirectory(RadioButton)
+add_subdirectory(SwitchButton)
+add_subdirectory(TextBox)
+add_subdirectory(ToggleButton)
+add_subdirectory(TrackBar)

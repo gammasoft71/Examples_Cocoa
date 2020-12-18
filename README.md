@@ -7,9 +7,9 @@ Shows how to use macOS AppKit Cocoa controls without StoryBoard only by programm
 
 * ["Hello World"](src/HelloWorlds/HelloWorld/README.md) The classic first application HelloWorld with NSTextField.
 
-## [Application](src/Applications)
+## [Applications](src/Applications)
 
-* [Application](src/Application/Applications/Application/README.md) shows how to create an Application with NSApplication.
+* [Application](src/Applications/Application/README.md) shows how to create an Application with NSApplication.
 * [ApplicationWithMessageLoop](src/Applications/ApplicationWithMessageLoop/README.md) shows how to create your own message loop and dispatcher with NSEvent.
 
 ## [Common Controls](src/CoommonControls)

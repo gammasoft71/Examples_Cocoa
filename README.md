@@ -64,7 +64,6 @@ Shows how to use macOS AppKit Cocoa controls without StoryBoard only by programm
 
 ``` shell
 git clone https://github.com/gammasoft71/Examples_Cocoa Examples_Cocoa
-
 ```
 
 ## Generate and build

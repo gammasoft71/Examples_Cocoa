@@ -13,3 +13,4 @@ set(MACOSX_BUNDLE_GUI_IDENTIFIER "org.gammasoft.CocoaExemples.ApplicationIdle")
 # Application
 add_executable(${PROJECT_NAME} MACOSX_BUNDLE ApplicationIdle.m)
 target_link_libraries(${PROJECT_NAME} ${COCOA_LIBRARY})
+set_target_properties(${PROJECT_NAME} PROPERTIES FOLDER "Events")

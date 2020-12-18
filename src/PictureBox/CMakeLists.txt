@@ -16,3 +16,4 @@ set_source_files_properties(Resources/Logo.png PROPERTIES MACOSX_PACKAGE_LOCATIO
 # Application
 add_executable(${PROJECT_NAME} MACOSX_BUNDLE PictureBox.m Resources/Logo.png)
 target_link_libraries(${PROJECT_NAME} ${COCOA_LIBRARY})
+set_target_properties(${PROJECT_NAME} PROPERTIES FOLDER "CommonControls")

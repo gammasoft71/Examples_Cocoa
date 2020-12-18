@@ -13,3 +13,4 @@ set(MACOSX_BUNDLE_GUI_IDENTIFIER "org.gammasoft.CocoaExamples.MainMenu")
 # Application
 add_executable(${PROJECT_NAME} MACOSX_BUNDLE MainMenu.m)
 target_link_libraries(${PROJECT_NAME} ${COCOA_LIBRARY})
+set_target_properties(${PROJECT_NAME} PROPERTIES FOLDER "MenusAndTooolbars")

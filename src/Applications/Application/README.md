@@ -10,4 +10,4 @@ This example demonstrates the use of NSApplication class.
 
 # Output
 
-![Screenshot](../../docs/Pictures/Application.png)
+![Screenshot](../../../docs/Pictures/Application.png)

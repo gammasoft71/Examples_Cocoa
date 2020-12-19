@@ -19,7 +19,7 @@ Shows how to use macOS AppKit Cocoa controls without StoryBoard only by programm
 * [ComboBox](src/CommonControls/ComboBox/README.md) shows how to create a ComboBox with NSComboBox.
 * [Label](src/CommonControls/Label/README.md) shows how to create a Label with NSTextField.
 * [ListBox](src/CommonControls/ListBoox/README.md) shows how to create a ListBox with NSList.
-* [PictureBox](src/CommonControlsv/PictureBox/README.md) shows how to create a PictureBox with NSImageView.
+* [PictureBox](src/CommonControls/PictureBox/README.md) shows how to create a PictureBox with NSImageView.
 * [ProgressBar](src/CommonControls/ProgressBar/README.md) shows how to create a ProgressBar with NSProgressIndicator.
 * [RadioButton](src/CommonControls/RadioButton/README.md) shows how to create a RadioButton with NSButton.
 * [SwitchButton](src/CommonControls/SwitchButton/README.md) shows how to create a SwitchButton with NSSwitch.

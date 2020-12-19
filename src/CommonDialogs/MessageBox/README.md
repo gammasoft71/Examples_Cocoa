@@ -10,4 +10,4 @@ This example demonstrates the use of NSAlert dialog.
 
 # Output
 
-![Screenshot](../../docs/Pictures/MessageBox.png)
+![Screenshot](../../../docs/Pictures/MessageBox.png)

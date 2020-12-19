@@ -10,4 +10,4 @@ This example demonstrates the use of NSOpenPanel dialog.
 
 # Output
 
-![Screenshot](../../docs/Pictures/FolderBrowserDialog.png)
+![Screenshot](../../../docs/Pictures/FolderBrowserDialog.png)

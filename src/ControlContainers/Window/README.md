@@ -1,13 +1,13 @@
-# Form
+# Window
 
 This example demonstrates the use of NSWindow control.
 
 # Source
 
-[Form.m](./Form.m)
+[Window.m](./Window.m)
 
 [CMakeLists.txt](./CMakeLists.txt)
 
 # Output
 
-![Screenshot](../../docs/Pictures/Form.png)
+![Screenshot](../../../docs/Pictures/Window.png)

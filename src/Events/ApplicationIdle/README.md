@@ -10,4 +10,4 @@ This example demonstrates the use of NSApplication and NSEvent clesses.
 
 # Output
 
-![Screenshot](../../docs/Pictures/ApplicationWithMessageLoop.png)
+![Screenshot](../../../docs/Pictures/ApplicationWithMessageLoop.png)

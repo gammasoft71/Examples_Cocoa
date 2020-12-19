@@ -10,6 +10,6 @@ This example demonstrates the use of NSSavePanel dialog.
 
 # Output
 
-![Screenshot](../../docs/Pictures/SaveFileDialogShort.png)
+![Screenshot](../../../docs/Pictures/SaveFileDialogShort.png)
 
-![Screenshot](../../docs/Pictures/SaveFileDialog.png)
+![Screenshot](../../../docs/Pictures/SaveFileDialog.png)

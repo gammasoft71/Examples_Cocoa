@@ -1,13 +1,13 @@
-# Form
+# WindowAndMessages
 
-This example demonstrates the use of NSWindow control.
+This example demonstrates the use of NSWindow control and messages.
 
 # Source
 
-[Form.m](./Form.m)
+[WindowAndMessages.m](./WindowAndMessages.m)
 
 [CMakeLists.txt](./CMakeLists.txt)
 
 # Output
 
-![Screenshot](../../docs/Pictures/Form.png)
+![Screenshot](../../../docs/Pictures/WindowAndMessages.png)

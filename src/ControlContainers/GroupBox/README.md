@@ -10,4 +10,4 @@ This example demonstrates the use of NSBox control.
 
 # Output
 
-![Screenshot](../../docs/Pictures/GroupBox.png)
+![Screenshot](../../../docs/Pictures/GroupBox.png)

@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.1)
 
 project(src)
+find_library(COCOA_LIBRARY Cocoa)
 
 add_subdirectory(HelloWorlds)
 add_subdirectory(Applications)

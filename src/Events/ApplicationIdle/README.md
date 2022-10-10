@@ -1,13 +1,15 @@
-# ApplicationWithMessageLoop
+# ApplicationIdle
 
 This example demonstrates the use of NSApplication and NSEvent clesses.
 
 # Source
 
-[ApplicationWithMessageLoop.m](./ApplicationWithMessageLoop.m)
+[ApplicationIdle.m](./ApplicationIdle.m)
 
 [CMakeLists.txt](./CMakeLists.txt)
 
 # Output
 
-![Screenshot](../../../docs/Pictures/ApplicationWithMessageLoop.png)
+![Screenshot](../../../docs/Pictures/ApplicationIdle.png)
+
+![Screenshot](../../../docs/Pictures/ApplicationIdleDark.png)

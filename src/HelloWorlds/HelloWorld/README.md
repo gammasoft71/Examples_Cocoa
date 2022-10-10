@@ -11,3 +11,5 @@ The classic first application "Hello World".
 # Output
 
 ![Screenshot](../../../docs/Pictures/HelloWorld.png)
+
+![Screenshot](../../../docs/Pictures/HelloWorldDark.png)

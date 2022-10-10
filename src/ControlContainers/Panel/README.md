@@ -11,3 +11,5 @@ This example demonstrates the use of NSScrollView control.
 # Output
 
 ![Screenshot](../../../docs/Pictures/Panel.png)
+
+![Screenshot](../../../docs/Pictures/PanelDark.png)

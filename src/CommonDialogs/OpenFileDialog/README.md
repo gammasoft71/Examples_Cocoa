@@ -11,3 +11,5 @@ This example demonstrates the use of NSOpenPanel dialog.
 # Output
 
 ![Screenshot](../../../docs/Pictures/OpenFileDialog.png)
+
+![Screenshot](../../../docs/Pictures/OpenFileDialogDark.png)

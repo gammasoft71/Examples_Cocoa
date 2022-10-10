@@ -11,3 +11,5 @@ This example demonstrates the use of NSButton control.
 # Output
 
 ![Screenshot](../../../docs/Pictures/RadioButton.png)
+
+![Screenshot](../../../docs/Pictures/RadioButtonDark.png)

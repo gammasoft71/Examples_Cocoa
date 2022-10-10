@@ -11,3 +11,5 @@ This example demonstrates the use of NSWindow control.
 # Output
 
 ![Screenshot](../../../docs/Pictures/Window.png)
+
+![Screenshot](../../../docs/Pictures/WindowDark.png)

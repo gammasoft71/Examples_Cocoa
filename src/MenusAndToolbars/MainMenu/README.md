@@ -11,3 +11,5 @@ This example demonstrates the use of NSMenu and NSMEnuItem control.
 # Output
 
 ![Screenshot](../../../docs/Pictures/MainMenu.png)
+
+![Screenshot](../../../docs/Pictures/MainMenuDark.png)

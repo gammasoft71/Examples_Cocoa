@@ -11,3 +11,5 @@ This example demonstrates the use of NSFontPanel dialog and NSFontManager class.
 # Output
 
 ![Screenshot](../../../docs/Pictures/FontDialog.png)
+
+![Screenshot](../../../docs/Pictures/FontDialogDark.png)

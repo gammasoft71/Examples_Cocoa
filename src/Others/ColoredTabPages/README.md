@@ -11,3 +11,5 @@ This example demonstrates the use of NSTabView, colored NSTabViewItem controls a
 # Output
 
 ![Screenshot](../../../docs/Pictures/ColoredTabPages.png)
+
+![Screenshot](../../../docs/Pictures/ColoredTabPagesDark.png)

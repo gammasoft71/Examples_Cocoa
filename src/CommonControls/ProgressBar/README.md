@@ -11,3 +11,5 @@ This example demonstrates the use of NSProgressIndicator control.
 # Output
 
 ![Screenshot](../../../docs/Pictures/ProgressBar.png)
+
+![Screenshot](../../../docs/Pictures/ProgressBarDark.png)

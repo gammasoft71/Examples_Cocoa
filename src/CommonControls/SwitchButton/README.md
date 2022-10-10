@@ -11,3 +11,5 @@ This example demonstrates the use of NSButton control.
 # Output
 
 ![Screenshot](../../../docs/Pictures/SwitchButton.png)
+
+![Screenshot](../../../docs/Pictures/SwitchButtonDark.png)

@@ -11,3 +11,5 @@ This example demonstrates the use of NSTableView control.
 # Output
 
 ![Screenshot](../../../docs/Pictures/ListBox.png)
+
+![Screenshot](../../../docs/Pictures/ListBoxDark.png)

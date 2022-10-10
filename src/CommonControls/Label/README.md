@@ -11,3 +11,5 @@ This example demonstrates the use of NSTextField control.
 # Output
 
 ![Screenshot](../../../docs/Pictures/Label.png)
+
+![Screenshot](../../../docs/Pictures/LabelDark.png)

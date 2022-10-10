@@ -12,4 +12,4 @@ This example demonstrates the use of NSProgressIndicator control.
 
 ![Screenshot](../../../docs/Pictures/LoadingIndicator.png)
 
-![Screenshot](../../../docs/Pictures/LoadingIndicator.png)
+![Screenshot](../../../docs/Pictures/LoadingIndicatorDark.png)

@@ -20,7 +20,7 @@ Shows how to use macOS AppKit Cocoa controls without StoryBoard only by programm
 * [CheckBox](src/CommonControls/CheckBox/README.md) shows how to create a CheckBox with NSButton.
 * [ComboBox](src/CommonControls/ComboBox/README.md) shows how to create a ComboBox with NSComboBox.
 * [Label](src/CommonControls/Label/README.md) shows how to create a Label with NSTextField.
-* [ListBox](src/CommonControls/ListBoox/README.md) shows how to create a ListBox with NSList.
+* [ListBox](src/CommonControls/ListBox/README.md) shows how to create a ListBox with NSList.
 * [PictureBox](src/CommonControls/PictureBox/README.md) shows how to create a PictureBox with NSImageView.
 * [ProgressBar](src/CommonControls/ProgressBar/README.md) shows how to create a ProgressBar with NSProgressIndicator.
 * [RadioButton](src/CommonControls/RadioButton/README.md) shows how to create a RadioButton with NSButton.
@@ -38,7 +38,7 @@ Shows how to use macOS AppKit Cocoa controls without StoryBoard only by programm
 
 ## [Menus and toolbars](src/MenusAndTooolbars)
 
-* [MainMenu](src/MenusAndTooolbars/MainMenu/README.md) shows how to create a MainMenu with NSMenu and NSMenuItem.
+* [MainMenu](src/MenusAndToolbars/MainMenu/README.md) shows how to create a MainMenu with NSMenu and NSMenuItem.
 
 ## [Components](src/Components)
 
@@ -47,7 +47,7 @@ Shows how to use macOS AppKit Cocoa controls without StoryBoard only by programm
 ## [Common Dialogs](src/CommonDialogs)
 
 * [ColorDialog](src/CommonDialogs/ColorDialog/README.md) shows how to create a ColorDialog with NSColorPanel.
-* [FolderBrowserDialog](src/CommonDialogsv/FolderBrowserDialog/README.md) shows how to create a FolderBrowserDialog with NSOpenPanel.
+* [FolderBrowserDialog](src/CommonDialogs/FolderBrowserDialog/README.md) shows how to create a FolderBrowserDialog with NSOpenPanel.
 * [FontDialog](src/CommonDialogs/FontDialog/README.md) shows how to create a FontDialog with NSFontPanel.
 * [OpenFileDialog](src/CommonDialogs/OpenFileDialog/README.md) shows how to create an OpenFileDialog with NSOpenPanel.
 * [MessageBox](src/CommonDialogs/MessageBox/README.md) shows how to create a MessageBox with NSAlert.

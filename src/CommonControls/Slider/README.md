@@ -4,7 +4,7 @@ This example demonstrates the use of NSSlider control.
 
 # Source
 
-[LevelIndicator.m](./Slider.m)
+[Slider.m](./Slider.m)
 
 [CMakeLists.txt](./CMakeLists.txt)
 

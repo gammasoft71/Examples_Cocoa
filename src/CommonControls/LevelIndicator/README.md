@@ -4,7 +4,7 @@ This example demonstrates the use of NSLevelIndicator control.
 
 # Source
 
-[ProgressBar.m](./LevelIndicator.m)
+[LevelIndicator.m](./LevelIndicator.m)
 
 [CMakeLists.txt](./CMakeLists.txt)
 

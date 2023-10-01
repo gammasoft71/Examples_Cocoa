@@ -1,15 +1,15 @@
-# LevelyIndicator
+# LevelIndicator
 
-This example demonstrates the use of NSLevelyIndicator control.
+This example demonstrates the use of NSLevelIndicator control.
 
 # Source
 
-[ProgressBar.m](./LevelyIndicator.m)
+[ProgressBar.m](./LevelIndicator.m)
 
 [CMakeLists.txt](./CMakeLists.txt)
 
 # Output
 
-![Screenshot](../../../docs/Pictures/LevelyIndicator.png)
+![Screenshot](../../../docs/Pictures/LevelIndicator.png)
 
-![Screenshot](../../../docs/Pictures/LevelyIndicatorDark.png)
+![Screenshot](../../../docs/Pictures/LevelIndicatorDark.png)

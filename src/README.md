@@ -14,10 +14,6 @@ Shows how to use macOS [AppKit](https://developer.apple.com/documentation/appkit
 * [Application](Applications/Application/README.md) shows how to create an Application with [NSApplication](https://developer.apple.com/documentation/appkit/nsapplication/).
 * [ApplicationWithMessageLoop](Applications/ApplicationWithMessageLoop/README.md) shows how to create your own message loop and dispatcher with [NSEvent](https://developer.apple.com/documentation/appkit/nsevent/).
 
-## [Menus and toolbars](MenusAndToolbars/README.md)
-
-* [MainMenu](MenusAndToolbars/MainMenu/README.md) shows how to create a MainMenu with [NSMenu](https://developer.apple.com/documentation/appkit/nsmenu/) and [NSMenuItem](https://developer.apple.com/documentation/appkit/nsmenuitem/).
-
 ## [Dialogs](Dialogs/README.md)
 
 * [ColorDialog](Dialogs/ColorDialog/README.md) shows how to create a ColorDialog with [NSColorPanel](https://developer.apple.com/documentation/appkit/nscolorpanel/).
@@ -26,6 +22,10 @@ Shows how to use macOS [AppKit](https://developer.apple.com/documentation/appkit
 * [OpenFileDialog](Dialogs/OpenFileDialog/README.md) shows how to create an OpenFileDialog with [NSOpenPanel](https://developer.apple.com/documentation/appkit/nsopenpanel/).
 * [MessageBox](Dialogs/MessageBox/README.md) shows how to create a MessageBox with [NSAlert](https://developer.apple.com/documentation/appkit/nsalert/).
 * [SaveFileDialog](Dialogs/SaveFileDialog/README.md) shows how to create an SaveFileDialog with [NSSavePanel](https://developer.apple.com/documentation/appkit/nssavepanel/).
+
+## [Menus and toolbars](MenusAndToolbars/README.md)
+
+* [MainMenu](MenusAndToolbars/MainMenu/README.md) shows how to create a MainMenu with [NSMenu](https://developer.apple.com/documentation/appkit/nsmenu/) and [NSMenuItem](https://developer.apple.com/documentation/appkit/nsmenuitem/).
 
 ## [Containers](Containers/README.md)
 

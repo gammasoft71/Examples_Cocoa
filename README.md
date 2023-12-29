@@ -82,7 +82,6 @@ cmake .. -G "Xcode"
 open ./CocoaExamples.xcodeproj
 ```
 
-
 ## Remarks
 
 This project run only on macOS with [Xcode](https://developer.apple.com/xcode) and [CMake](https://cmake.org).

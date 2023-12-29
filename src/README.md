@@ -9,7 +9,7 @@ Shows how to use macOS [AppKit](https://developer.apple.com/documentation/appkit
 
 * ["Hello World"](HelloWorlds/HelloWorld/README.md) The classic first application HelloWorld with [NSTextField](https://developer.apple.com/documentation/appkit/nstextfield/).
 
-## [Applications](Applications)
+## [Applications](Applications/README.md)
 
 * [Application](Applications/Application/README.md) shows how to create an Application with [NSApplication](https://developer.apple.com/documentation/appkit/nsapplication/).
 * [ApplicationWithMessageLoop](Applications/ApplicationWithMessageLoop/README.md) shows how to create your own message loop and dispatcher with [NSEvent](https://developer.apple.com/documentation/appkit/nsevent/).
@@ -65,12 +65,6 @@ Shows how to use macOS [AppKit](https://developer.apple.com/documentation/appkit
 
 * [ColoredTabPages](Others/ColoredTabPages/README.md) shows how to create a TabControl with colored TabPages with [NSTabView](https://developer.apple.com/documentation/appkit/nstabview/), [NSTabViewItem](https://developer.apple.com/documentation/appkit/nstabviewitem/) and [NSColor](https://developer.apple.com/documentation/appkit/nscolor/).
 
-## Download
-
-``` shell
-git clone https://github.com/gammasoft71/Examples_Cocoa Examples_Cocoa
-```
-
 ## Generate and build
 
 To build this project, open "Terminal", go to your project folder and type following lines:
@@ -79,10 +73,5 @@ To build this project, open "Terminal", go to your project folder and type follo
 mkdir build
 cd build
 cmake .. -G "Xcode"
-open ./CocoaExamples.xcodeproj
+open ./src.xcodeproj
 ```
-
-
-## Remarks
-
-This project run only on macOS with [Xcode](https://developer.apple.com/xcode) and [CMake](https://cmake.org).

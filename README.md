@@ -14,23 +14,23 @@ Shows how to use macOS AppKit Cocoa controls without StoryBoard only by programm
 * [Application](src/Applications/Application/README.md) shows how to create an Application with NSApplication.
 * [ApplicationWithMessageLoop](src/Applications/ApplicationWithMessageLoop/README.md) shows how to create your own message loop and dispatcher with NSEvent.
 
-## [Common Controls](src/CoommonControls)
+## [Controls](src/Controls)
 
-* [Button](src/CommonControls/Button/README.md) shows how to create a Button and Event Click with NSButton.
-* [CheckBox](src/CommonControls/CheckBox/README.md) shows how to create a CheckBox with NSButton.
-* [ComboBox](src/CommonControls/ComboBox/README.md) shows how to create a ComboBox with NSComboBox.
-* [Label](src/CommonControls/Label/README.md) shows how to create a Label with NSTextField.
-* [LevelIndicator](src/CommonControls/LevelIndicator/README.md) shows how to create a LevelIndicator with NSLevelIndicator.
-* [ListBox](src/CommonControls/ListBox/README.md) shows how to create a ListBox with NSList.
-* [LoadingIndicator](src/CommonControls/LoadingIndicator/README.md) shows how to create a LoadingIndicator with NSProgressIndicator.
-* [PictureBox](src/CommonControls/PictureBox/README.md) shows how to create a PictureBox with NSImageView.
-* [ProgressIndicator](src/CommonControls/ProgressIndicator/README.md) shows how to create a ProgressIndicator with NSProgressIndicator.
-* [RadioButton](src/CommonControls/RadioButton/README.md) shows how to create a RadioButton with NSButton.
-* [Slider](src/CommonControls/Slider/README.md) shows how to create a Slider with NSSlider.
-* [SwitchButton](src/CommonControls/SwitchButton/README.md) shows how to create a SwitchButton with NSSwitch.
-* [TextBox](src/CommonControls/TextBox/README.md) shows how to create a TextBox with NSTextField.
-* [ToggleButton](src/CommonControls/ToggleButton/README.md) shows how to create a ToggleButton with NSButton.
-* [TrackBar](src/CommonControls/TrackBar/README.md) shows how to create a TrackBar with NSSlider.
+* [Button](src/Controls/Button/README.md) shows how to create a Button and Event Click with NSButton.
+* [CheckBox](src/Controls/CheckBox/README.md) shows how to create a CheckBox with NSButton.
+* [ComboBox](src/Controls/ComboBox/README.md) shows how to create a ComboBox with NSComboBox.
+* [Label](src/Controls/Label/README.md) shows how to create a Label with NSTextField.
+* [LevelIndicator](src/Controls/LevelIndicator/README.md) shows how to create a LevelIndicator with NSLevelIndicator.
+* [ListBox](src/Controls/ListBox/README.md) shows how to create a ListBox with NSList.
+* [LoadingIndicator](src/Controls/LoadingIndicator/README.md) shows how to create a LoadingIndicator with NSProgressIndicator.
+* [PictureBox](src/Controls/PictureBox/README.md) shows how to create a PictureBox with NSImageView.
+* [ProgressIndicator](src/Controls/ProgressIndicator/README.md) shows how to create a ProgressIndicator with NSProgressIndicator.
+* [RadioButton](src/Controls/RadioButton/README.md) shows how to create a RadioButton with NSButton.
+* [Slider](src/Controls/Slider/README.md) shows how to create a Slider with NSSlider.
+* [SwitchButton](src/Controls/SwitchButton/README.md) shows how to create a SwitchButton with NSSwitch.
+* [TextBox](src/Controls/TextBox/README.md) shows how to create a TextBox with NSTextField.
+* [ToggleButton](src/Controls/ToggleButton/README.md) shows how to create a ToggleButton with NSButton.
+* [TrackBar](src/Controls/TrackBar/README.md) shows how to create a TrackBar with NSSlider.
 
 ## [Control Containers](src/ControlContainers)
 

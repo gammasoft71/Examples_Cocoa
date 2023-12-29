@@ -5,7 +5,7 @@ find_library(COCOA_LIBRARY Cocoa)
 
 add_subdirectory(HelloWorlds)
 add_subdirectory(Applications)
-add_subdirectory(CommonControls)
+add_subdirectory(Controls)
 add_subdirectory(ControlContainers)
 add_subdirectory(MenusAndToolbars)
 add_subdirectory(Components)

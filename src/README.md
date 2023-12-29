@@ -61,7 +61,7 @@ Shows how to use macOS [AppKit](https://developer.apple.com/documentation/appkit
 * [ApplicationIdle](Events/ApplicationIdle/README.md) shows how to create an idle event.
 * [WindowAndMessages](Events/WindowAndMessages/README.md) demonstrates some events received by [NSWndow](https://developer.apple.com/documentation/appkit/nswindow/).
 
-## [Others](Others)
+## [Others](Others/README.md)
 
 * [ColoredTabPages](Others/ColoredTabPages/README.md) shows how to create a TabControl with colored TabPages with [NSTabView](https://developer.apple.com/documentation/appkit/nstabview/), [NSTabViewItem](https://developer.apple.com/documentation/appkit/nstabviewitem/) and [NSColor](https://developer.apple.com/documentation/appkit/nscolor/).
 

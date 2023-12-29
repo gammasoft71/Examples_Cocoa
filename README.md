@@ -7,25 +7,25 @@ Shows how to use macOS AppKit Cocoa controls without StoryBoard only by programm
 
 ## [Hello Worlds](src/HelloWorlds)
 
-* ["Hello World"](src/HelloWorlds/HelloWorld/README.md) The classic first application HelloWorld with [NSTextField](https://developer.apple.com/documentation/appkit/nstextfield?language=objc).
+* ["Hello World"](src/HelloWorlds/HelloWorld/README.md) The classic first application HelloWorld with [NSTextField](https://developer.apple.com/documentation/appkit/nstextfield/).
 
 ## [Applications](src/Applications)
 
-* [Application](src/Applications/Application/README.md) shows how to create an Application with [NSApplication](https://developer.apple.com/documentation/appkit/nsapplication?language=objc).
-* [ApplicationWithMessageLoop](src/Applications/ApplicationWithMessageLoop/README.md) shows how to create your own message loop and dispatcher with [NSEvent](https://developer.apple.com/documentation/appkit/nsevent?language=objc).
+* [Application](src/Applications/Application/README.md) shows how to create an Application with [NSApplication](https://developer.apple.com/documentation/appkit/nsapplication/).
+* [ApplicationWithMessageLoop](src/Applications/ApplicationWithMessageLoop/README.md) shows how to create your own message loop and dispatcher with [NSEvent](https://developer.apple.com/documentation/appkit/nsevent/).
 
 ## [Menus and toolbars](src/MenusAndTooolbars)
 
-* [MainMenu](src/MenusAndToolbars/MainMenu/README.md) shows how to create a MainMenu with [NSMenu](https://developer.apple.com/documentation/appkit/nsmenu?language=objc) and [NSMenuItem](https://developer.apple.com/documentation/appkit/nsmenuitem?language=objc).
+* [MainMenu](src/MenusAndToolbars/MainMenu/README.md) shows how to create a MainMenu with [NSMenu](https://developer.apple.com/documentation/appkit/nsmenu/) and [NSMenuItem](https://developer.apple.com/documentation/appkit/nsmenuitem/).
 
 ## [Dialogs](src/Dialogs)
 
-* [ColorDialog](src/Dialogs/ColorDialog/README.md) shows how to create a ColorDialog with NSColorPanel.
-* [FolderBrowserDialog](src/Dialogs/FolderBrowserDialog/README.md) shows how to create a FolderBrowserDialog with NSOpenPanel.
-* [FontDialog](src/Dialogs/FontDialog/README.md) shows how to create a FontDialog with NSFontPanel.
-* [OpenFileDialog](src/Dialogs/OpenFileDialog/README.md) shows how to create an OpenFileDialog with NSOpenPanel.
-* [MessageBox](src/Dialogs/MessageBox/README.md) shows how to create a MessageBox with NSAlert.
-* [SaveFileDialog](src/Dialogs/SaveFileDialog/README.md) shows how to create an SaveFileDialog with NSSavePanel.
+* [ColorDialog](src/Dialogs/ColorDialog/README.md) shows how to create a ColorDialog with [NSColorPanel](https://developer.apple.com/documentation/appkit/nscolorpanel/).
+* [FolderBrowserDialog](src/Dialogs/FolderBrowserDialog/README.md) shows how to create a FolderBrowserDialog with [NSOpenPanel](https://developer.apple.com/documentation/appkit/nsopenpanel/).
+* [FontDialog](src/Dialogs/FontDialog/README.md) shows how to create a FontDialog with [NSFontPanel](https://developer.apple.com/documentation/appkit/nsfontpanel/).
+* [OpenFileDialog](src/Dialogs/OpenFileDialog/README.md) shows how to create an OpenFileDialog with [NSOpenPanel](https://developer.apple.com/documentation/appkit/nsopenpanel/).
+* [MessageBox](src/Dialogs/MessageBox/README.md) shows how to create a MessageBox with [NSAlert](https://developer.apple.com/documentation/appkit/nsalert/).
+* [SaveFileDialog](src/Dialogs/SaveFileDialog/README.md) shows how to create an SaveFileDialog with [NSSavePanel](https://developer.apple.com/documentation/appkit/nssavepanel/).
 
 ## [Containers](src/Containers)
 

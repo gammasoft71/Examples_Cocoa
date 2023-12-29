@@ -13,4 +13,4 @@ set(MACOSX_BUNDLE_GUI_IDENTIFIER "org.gammasoft.CocoaExamples.Window")
 # Application
 add_executable(${PROJECT_NAME} MACOSX_BUNDLE Window.m)
 target_link_libraries(${PROJECT_NAME} ${COCOA_LIBRARY})
-set_target_properties(${PROJECT_NAME} PROPERTIES FOLDER "ControlContainers")
+set_target_properties(${PROJECT_NAME} PROPERTIES FOLDER "Containers")

@@ -27,12 +27,12 @@ Shows how to use macOS AppKit Cocoa controls without StoryBoard only by programm
 * [MessageBox](src/Dialogs/MessageBox/README.md) shows how to create a MessageBox with NSAlert.
 * [SaveFileDialog](src/Dialogs/SaveFileDialog/README.md) shows how to create an SaveFileDialog with NSSavePanel.
 
-## [Control Containers](src/ControlContainers)
+## [Containers](src/Containers)
 
-* [GroupBox](src/ControlContainers/GroupBox/README.md) shows how to create a GroupBox with NSBox.
-* [Panel](src/ControlContainers/Panel/README.md) shows how to create a Panel with NSScrollView.
-* [TabControl](src/ControlContainers/TabControl/README.md) shows how to create a TabControl with TabPages with NSTabView and NSTabViewItem.
-* [Window](src/ControlContainers/Window/README.md) shows how to create a Window with NSWndow.
+* [GroupBox](src/Containers/GroupBox/README.md) shows how to create a GroupBox with NSBox.
+* [Panel](src/Containers/Panel/README.md) shows how to create a Panel with NSScrollView.
+* [TabControl](src/Containers/TabControl/README.md) shows how to create a TabControl with TabPages with NSTabView and NSTabViewItem.
+* [Window](src/Containers/Window/README.md) shows how to create a Window with NSWndow.
 
 ## [Controls](src/Controls)
 

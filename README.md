@@ -18,7 +18,7 @@ Shows how to use macOS [AppKit](https://developer.apple.com/documentation/appkit
 
 * [MainMenu](src/MenusAndToolbars/MainMenu/README.md) shows how to create a MainMenu with [NSMenu](https://developer.apple.com/documentation/appkit/nsmenu/) and [NSMenuItem](https://developer.apple.com/documentation/appkit/nsmenuitem/).
 
-## [Dialogs](src/Dialogs)
+## [Dialogs](src/Dialogs/README.md)
 
 * [ColorDialog](src/Dialogs/ColorDialog/README.md) shows how to create a ColorDialog with [NSColorPanel](https://developer.apple.com/documentation/appkit/nscolorpanel/).
 * [FolderBrowserDialog](src/Dialogs/FolderBrowserDialog/README.md) shows how to create a FolderBrowserDialog with [NSOpenPanel](https://developer.apple.com/documentation/appkit/nsopenpanel/).

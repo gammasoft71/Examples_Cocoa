@@ -6,7 +6,7 @@
   NSTextField* textField;
 }
 - (instancetype)init;
-- (void)onSliderChanged:(NSSlider*)timer;
+- (void)onSliderChanged:(NSSlider*)slider;
 - (BOOL)windowShouldClose:(id)sender;
 @end
 

@@ -1,7 +1,7 @@
 
 # Cocoa Examples
 
-Shows how to use macOS AppKit Cocoa controls without StoryBoard only by programming code (objective-c).
+Shows how to use macOS [AppKit](https://developer.apple.com/documentation/appkit/) Cocoa controls without StoryBoard only by programming code (objective-c).
 
 [![coocoa](docs/Pictures/cocoa_header.png)](https://gammasoft71.wixsite.com/gammasoft/cocoa)
 
@@ -29,10 +29,10 @@ Shows how to use macOS AppKit Cocoa controls without StoryBoard only by programm
 
 ## [Containers](src/Containers)
 
-* [GroupBox](src/Containers/GroupBox/README.md) shows how to create a GroupBox with NSBox.
-* [Panel](src/Containers/Panel/README.md) shows how to create a Panel with NSScrollView.
-* [TabControl](src/Containers/TabControl/README.md) shows how to create a TabControl with TabPages with NSTabView and NSTabViewItem.
-* [Window](src/Containers/Window/README.md) shows how to create a Window with NSWndow.
+* [GroupBox](src/Containers/GroupBox/README.md) shows how to create a GroupBox with [NSBox](https://developer.apple.com/documentation/appkit/nsbox/).
+* [Panel](src/Containers/Panel/README.md) shows how to create a Panel with [NSScrollView](https://developer.apple.com/documentation/appkit/nsscrollview/).
+* [TabControl](src/Containers/TabControl/README.md) shows how to create a TabControl with TabPages with [NSTabView](https://developer.apple.com/documentation/appkit/nstabview/) and [NSTabViewItem](https://developer.apple.com/documentation/appkit/nstabviewitem/).
+* [Window](src/Containers/Window/README.md) shows how to create a Window with [NSWndow](https://developer.apple.com/documentation/appkit/nswindow/).
 
 ## [Controls](src/Controls)
 

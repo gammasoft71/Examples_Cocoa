@@ -7,16 +7,16 @@ Shows how to use macOS AppKit Cocoa controls without StoryBoard only by programm
 
 ## [Hello Worlds](src/HelloWorlds)
 
-* ["Hello World"](src/HelloWorlds/HelloWorld/README.md) The classic first application HelloWorld with NSTextField.
+* ["Hello World"](src/HelloWorlds/HelloWorld/README.md) The classic first application HelloWorld with [NSTextField](https://developer.apple.com/documentation/appkit/nstextfield?language=objc).
 
 ## [Applications](src/Applications)
 
-* [Application](src/Applications/Application/README.md) shows how to create an Application with NSApplication.
-* [ApplicationWithMessageLoop](src/Applications/ApplicationWithMessageLoop/README.md) shows how to create your own message loop and dispatcher with NSEvent.
+* [Application](src/Applications/Application/README.md) shows how to create an Application with [NSApplication](https://developer.apple.com/documentation/appkit/nsapplication?language=objc).
+* [ApplicationWithMessageLoop](src/Applications/ApplicationWithMessageLoop/README.md) shows how to create your own message loop and dispatcher with [NSEvent](https://developer.apple.com/documentation/appkit/nsevent?language=objc).
 
 ## [Menus and toolbars](src/MenusAndTooolbars)
 
-* [MainMenu](src/MenusAndToolbars/MainMenu/README.md) shows how to create a MainMenu with NSMenu and NSMenuItem.
+* [MainMenu](src/MenusAndToolbars/MainMenu/README.md) shows how to create a MainMenu with [NSMenu](https://developer.apple.com/documentation/appkit/nsmenu?language=objc) and [NSMenuItem](https://developer.apple.com/documentation/appkit/nsmenuitem?language=objc).
 
 ## [Dialogs](src/Dialogs)
 

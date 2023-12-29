@@ -14,6 +14,26 @@ Shows how to use macOS AppKit Cocoa controls without StoryBoard only by programm
 * [Application](src/Applications/Application/README.md) shows how to create an Application with NSApplication.
 * [ApplicationWithMessageLoop](src/Applications/ApplicationWithMessageLoop/README.md) shows how to create your own message loop and dispatcher with NSEvent.
 
+## [Menus and toolbars](src/MenusAndTooolbars)
+
+* [MainMenu](src/MenusAndToolbars/MainMenu/README.md) shows how to create a MainMenu with NSMenu and NSMenuItem.
+
+## [Dialogs](src/Dialogs)
+
+* [ColorDialog](src/Dialogs/ColorDialog/README.md) shows how to create a ColorDialog with NSColorPanel.
+* [FolderBrowserDialog](src/Dialogs/FolderBrowserDialog/README.md) shows how to create a FolderBrowserDialog with NSOpenPanel.
+* [FontDialog](src/Dialogs/FontDialog/README.md) shows how to create a FontDialog with NSFontPanel.
+* [OpenFileDialog](src/Dialogs/OpenFileDialog/README.md) shows how to create an OpenFileDialog with NSOpenPanel.
+* [MessageBox](src/Dialogs/MessageBox/README.md) shows how to create a MessageBox with NSAlert.
+* [SaveFileDialog](src/Dialogs/SaveFileDialog/README.md) shows how to create an SaveFileDialog with NSSavePanel.
+
+## [Control Containers](src/ControlContainers)
+
+* [GroupBox](src/ControlContainers/GroupBox/README.md) shows how to create a GroupBox with NSBox.
+* [Panel](src/ControlContainers/Panel/README.md) shows how to create a Panel with NSScrollView.
+* [TabControl](src/ControlContainers/TabControl/README.md) shows how to create a TabControl with TabPages with NSTabView and NSTabViewItem.
+* [Window](src/ControlContainers/Window/README.md) shows how to create a Window with NSWndow.
+
 ## [Controls](src/Controls)
 
 * [Button](src/Controls/Button/README.md) shows how to create a Button and Event Click with NSButton.
@@ -32,29 +52,9 @@ Shows how to use macOS AppKit Cocoa controls without StoryBoard only by programm
 * [ToggleButton](src/Controls/ToggleButton/README.md) shows how to create a ToggleButton with NSButton.
 * [TrackBar](src/Controls/TrackBar/README.md) shows how to create a TrackBar with NSSlider.
 
-## [Control Containers](src/ControlContainers)
-
-* [GroupBox](src/ControlContainers/GroupBox/README.md) shows how to create a GroupBox with NSBox.
-* [Panel](src/ControlContainers/Panel/README.md) shows how to create a Panel with NSScrollView.
-* [TabControl](src/ControlContainers/TabControl/README.md) shows how to create a TabControl with TabPages with NSTabView and NSTabViewItem.
-* [Window](src/ControlContainers/Window/README.md) shows how to create a Window with NSWndow.
-
-## [Menus and toolbars](src/MenusAndTooolbars)
-
-* [MainMenu](src/MenusAndToolbars/MainMenu/README.md) shows how to create a MainMenu with NSMenu and NSMenuItem.
-
 ## [Components](src/Components)
 
 * [Timer](src/Components/Timer/README.md) shows how to create a Timer with NSTimer.
-
-## [Common Dialogs](src/CommonDialogs)
-
-* [ColorDialog](src/CommonDialogs/ColorDialog/README.md) shows how to create a ColorDialog with NSColorPanel.
-* [FolderBrowserDialog](src/CommonDialogs/FolderBrowserDialog/README.md) shows how to create a FolderBrowserDialog with NSOpenPanel.
-* [FontDialog](src/CommonDialogs/FontDialog/README.md) shows how to create a FontDialog with NSFontPanel.
-* [OpenFileDialog](src/CommonDialogs/OpenFileDialog/README.md) shows how to create an OpenFileDialog with NSOpenPanel.
-* [MessageBox](src/CommonDialogs/MessageBox/README.md) shows how to create a MessageBox with NSAlert.
-* [SaveFileDialog](src/CommonDialogs/SaveFileDialog/README.md) shows how to create an SaveFileDialog with NSSavePanel.
 
 ## [Events](src/Events)
 

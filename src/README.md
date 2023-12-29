@@ -27,7 +27,7 @@ Shows how to use macOS [AppKit](https://developer.apple.com/documentation/appkit
 * [MessageBox](Dialogs/MessageBox/README.md) shows how to create a MessageBox with [NSAlert](https://developer.apple.com/documentation/appkit/nsalert/).
 * [SaveFileDialog](Dialogs/SaveFileDialog/README.md) shows how to create an SaveFileDialog with [NSSavePanel](https://developer.apple.com/documentation/appkit/nssavepanel/).
 
-## [Containers](Containers)
+## [Containers](Containers/README.md)
 
 * [GroupBox](Containers/GroupBox/README.md) shows how to create a GroupBox with [NSBox](https://developer.apple.com/documentation/appkit/nsbox/).
 * [Panel](Containers/Panel/README.md) shows how to create a Panel with [NSScrollView](https://developer.apple.com/documentation/appkit/nsscrollview/).

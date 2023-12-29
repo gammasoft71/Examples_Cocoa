@@ -5,7 +5,7 @@ Shows how to use macOS [AppKit](https://developer.apple.com/documentation/appkit
 
 [![coocoa](../docs/Pictures/cocoa_header.png)](https://gammasoft71.wixsite.com/gammasoft/cocoa)
 
-## [Hello Worlds](HelloWorlds)
+## [Hello Worlds](HelloWorlds/README.md)
 
 * ["Hello World"](HelloWorlds/HelloWorld/README.md) The classic first application HelloWorld with [NSTextField](https://developer.apple.com/documentation/appkit/nstextfield/).
 

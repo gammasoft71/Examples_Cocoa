@@ -14,7 +14,7 @@ Shows how to use macOS [AppKit](https://developer.apple.com/documentation/appkit
 * [Application](src/Applications/Application/README.md) shows how to create an Application with [NSApplication](https://developer.apple.com/documentation/appkit/nsapplication/).
 * [ApplicationWithMessageLoop](src/Applications/ApplicationWithMessageLoop/README.md) shows how to create your own message loop and dispatcher with [NSEvent](https://developer.apple.com/documentation/appkit/nsevent/).
 
-## [Menus and toolbars](src/MenusAndTooolbars)
+## [Menus and toolbars](src/MenusAndTooolbars/README.md)
 
 * [MainMenu](src/MenusAndToolbars/MainMenu/README.md) shows how to create a MainMenu with [NSMenu](https://developer.apple.com/documentation/appkit/nsmenu/) and [NSMenuItem](https://developer.apple.com/documentation/appkit/nsmenuitem/).
 

@@ -52,7 +52,7 @@ Shows how to use macOS [AppKit](https://developer.apple.com/documentation/appkit
 * [ToggleButton](Controls/ToggleButton/README.md) shows how to create a ToggleButton with [NSButton](https://developer.apple.com/documentation/appkit/nsbutton/).
 * [TrackBar](Controls/TrackBar/README.md) shows how to create a TrackBar with [NSSlider](https://developer.apple.com/documentation/appkit/nsslider/).
 
-## [Components](Components)
+## [Components](Components/README.md)
 
 * [Timer](Components/Timer/README.md) shows how to create a Timer with [NSTimer](https://developer.apple.com/documentation/foundation/nstimer/).
 

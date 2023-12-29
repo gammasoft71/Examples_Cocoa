@@ -54,16 +54,16 @@ Shows how to use macOS [AppKit](https://developer.apple.com/documentation/appkit
 
 ## [Components](src/Components)
 
-* [Timer](src/Components/Timer/README.md) shows how to create a Timer with NSTimer.
+* [Timer](src/Components/Timer/README.md) shows how to create a Timer with [NSTimer](https://developer.apple.com/documentation/foundation/nstimer/).
 
 ## [Events](src/Events)
 
 * [ApplicationIdle](src/Events/ApplicationIdle/README.md) shows how to create an idle event.
-* [WindowAndMessages](src/Events/WindowAndMessages/README.md) demonstrates some events received by NSWindow.
+* [WindowAndMessages](src/Events/WindowAndMessages/README.md) demonstrates some events received by [NSWndow](https://developer.apple.com/documentation/appkit/nswindow/).
 
 ## [Others](src/Others)
 
-* [ColoredTabPages](src/Others/ColoredTabPages/README.md) shows how to create a TabControl with colored TabPages with NSTabView, NSTabViewItem and NSColor.
+* [ColoredTabPages](src/Others/ColoredTabPages/README.md) shows how to create a TabControl with colored TabPages with [NSTabView](https://developer.apple.com/documentation/appkit/nstabview/), [NSTabViewItem](https://developer.apple.com/documentation/appkit/nstabviewitem/) and [NSColor](https://developer.apple.com/documentation/appkit/nscolor/).
 
 ## Download
 

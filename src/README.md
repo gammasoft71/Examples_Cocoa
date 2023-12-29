@@ -56,7 +56,7 @@ Shows how to use macOS [AppKit](https://developer.apple.com/documentation/appkit
 
 * [Timer](Components/Timer/README.md) shows how to create a Timer with [NSTimer](https://developer.apple.com/documentation/foundation/nstimer/).
 
-## [Events](Events)
+## [Events](Events/README.md)
 
 * [ApplicationIdle](Events/ApplicationIdle/README.md) shows how to create an idle event.
 * [WindowAndMessages](Events/WindowAndMessages/README.md) demonstrates some events received by [NSWndow](https://developer.apple.com/documentation/appkit/nswindow/).

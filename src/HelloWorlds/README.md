@@ -3,7 +3,7 @@
 
 This [folder](.) contains [AppKit](https://developer.apple.com/documentation/appkit/) "Hello, world!" examples.
 
-* ["Hello World"](HelloWorld/README.md) The classic first application HelloWorld with [NSTextField](https://developer.apple.com/documentation/appkit/nstextfield/).
+* [HelloWorld](HelloWorld/README.md) The classic first application HelloWorld with [NSTextField](https://developer.apple.com/documentation/appkit/nstextfield/).
 
 ## Generate and build
 

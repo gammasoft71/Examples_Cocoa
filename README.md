@@ -9,7 +9,7 @@ Shows how to use macOS [AppKit](https://developer.apple.com/documentation/appkit
 
 * ["Hello World"](src/HelloWorlds/HelloWorld/README.md) The classic first application HelloWorld with [NSTextField](https://developer.apple.com/documentation/appkit/nstextfield/).
 
-## [Applications](src/Applications)
+## [Applications](src/Applications/README.md)
 
 * [Application](src/Applications/Application/README.md) shows how to create an Application with [NSApplication](https://developer.apple.com/documentation/appkit/nsapplication/).
 * [ApplicationWithMessageLoop](src/Applications/ApplicationWithMessageLoop/README.md) shows how to create your own message loop and dispatcher with [NSEvent](https://developer.apple.com/documentation/appkit/nsevent/).
@@ -34,7 +34,7 @@ Shows how to use macOS [AppKit](https://developer.apple.com/documentation/appkit
 * [TabControl](src/Containers/TabControl/README.md) shows how to create a TabControl with TabPages with [NSTabView](https://developer.apple.com/documentation/appkit/nstabview/) and [NSTabViewItem](https://developer.apple.com/documentation/appkit/nstabviewitem/).
 * [Window](src/Containers/Window/README.md) shows how to create a Window with [NSWndow](https://developer.apple.com/documentation/appkit/nswindow/).
 
-## [Controls](src/Controls)
+## [Controls](src/Controls/README.md)
 
 * [Button](src/Controls/Button/README.md) shows how to create a Button and Event Click with [NSButton](https://developer.apple.com/documentation/appkit/nsbutton/).
 * [CheckBox](src/Controls/CheckBox/README.md) shows how to create a CheckBox with [NSButton](https://developer.apple.com/documentation/appkit/nsbutton/).

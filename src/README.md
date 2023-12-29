@@ -34,7 +34,7 @@ Shows how to use macOS [AppKit](https://developer.apple.com/documentation/appkit
 * [TabControl](Containers/TabControl/README.md) shows how to create a TabControl with TabPages with [NSTabView](https://developer.apple.com/documentation/appkit/nstabview/) and [NSTabViewItem](https://developer.apple.com/documentation/appkit/nstabviewitem/).
 * [Window](Containers/Window/README.md) shows how to create a Window with [NSWndow](https://developer.apple.com/documentation/appkit/nswindow/).
 
-## [Controls](Controls)
+## [Controls](Controls/README.md)
 
 * [Button](Controls/Button/README.md) shows how to create a Button and Event Click with [NSButton](https://developer.apple.com/documentation/appkit/nsbutton/).
 * [CheckBox](Controls/CheckBox/README.md) shows how to create a CheckBox with [NSButton](https://developer.apple.com/documentation/appkit/nsbutton/).

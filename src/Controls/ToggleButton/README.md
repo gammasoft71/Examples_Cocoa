@@ -2,13 +2,26 @@
 
 This example demonstrates the use of NSButton control.
 
-# Source
+## Sources
 
-[CheckBox.m](./ToggleButton.m)
+[CheckBox.m](ToggleButton.m)
 
-[CMakeLists.txt](./CMakeLists.txt)
+[CMakeLists.txt](CMakeLists.txt)
 
-# Output
+## Generate and build
+
+To build this project, open "Terminal", go to your project folder and type following lines:
+
+``` cmake
+mkdir build
+cd build
+cmake .. -G "Xcode"
+open ./ToggleButton.xcodeproj
+```
+
+Select `ToggleButton` project and type Cmd+R to build and run it.
+
+## Output
 
 ![Screenshot](../../../docs/Pictures/ToggleButton.png)
 

@@ -2,13 +2,26 @@
 
 This example demonstrates the use of NSMenu and NSMEnuItem control.
 
-# Source
+## Sources
 
-[MainMenu.m](./MainMenu.m)
+[MainMenu.m](MainMenu.m)
 
-[CMakeLists.txt](./CMakeLists.txt)
+[CMakeLists.txt](CMakeLists.txt)
 
-# Output
+## Generate and build
+
+To build this project, open "Terminal", go to your project folder and type following lines:
+
+``` cmake
+mkdir build
+cd build
+cmake .. -G "Xcode"
+open ./MainMenu.xcodeproj
+```
+
+Select `MainMenu` project and type Cmd+R to build and run it.
+
+## Output
 
 ![Screenshot](../../../docs/Pictures/MainMenu.png)
 

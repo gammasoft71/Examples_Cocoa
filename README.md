@@ -21,7 +21,7 @@ Shows how to use macOS [AppKit](https://developer.apple.com/documentation/appkit
 ## Download
 
 ``` shell
-git clone https://github.com/gammasoft71/Examples_Cocoa Examples_Cocoa
+git clone https://github.com/gammasoft71/Examples_Cocoa
 ```
 
 ## Generate and build

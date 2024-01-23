@@ -8,7 +8,7 @@ find_library(COCOA_LIBRARY Cocoa)
 set(MACOSX_BUNDLE_BUNDLE_VERSION ${PROJECT_VERSION})
 set(MACOSX_BUNDLE_COPYRIGHT "© 2020 by Gammasoft")
 set(MACOSX_BUNDLE_INFO_STRING "This example shows how to use Cocoa SaveFileDialog")
-set(MACOSX_BUNDLE_GUI_IDENTIFIER "org.gammasoft.CocoaExamples.SaveFileDialog")
+#set(MACOSX_BUNDLE_GUI_IDENTIFIER "org.gammasoft.CocoaExamples.SaveFileDialog")
 
 # Application
 add_executable(${PROJECT_NAME} MACOSX_BUNDLE SaveFileDialog.m)

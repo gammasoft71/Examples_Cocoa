@@ -8,7 +8,7 @@ find_library(COCOA_LIBRARY Cocoa)
 set(MACOSX_BUNDLE_BUNDLE_VERSION ${PROJECT_VERSION})
 set(MACOSX_BUNDLE_COPYRIGHT "© 2023 by Gammasoft")
 set(MACOSX_BUNDLE_INFO_STRING "This example shows how to use Cocoa Slider")
-set(MACOSX_BUNDLE_GUI_IDENTIFIER "org.gammasoft.CocoaExamples.Slider")
+#set(MACOSX_BUNDLE_GUI_IDENTIFIER "org.gammasoft.CocoaExamples.Slider")
 
 # Application
 add_executable(${PROJECT_NAME} MACOSX_BUNDLE Slider.m)

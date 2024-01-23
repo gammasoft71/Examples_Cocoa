@@ -8,7 +8,7 @@ find_library(COCOA_LIBRARY Cocoa)
 set(MACOSX_BUNDLE_BUNDLE_VERSION ${PROJECT_VERSION})
 set(MACOSX_BUNDLE_COPYRIGHT "© 2020 by Gammasoft")
 set(MACOSX_BUNDLE_INFO_STRING "This example shows how to use Cocoa PictureBox")
-set(MACOSX_BUNDLE_GUI_IDENTIFIER "org.gammasoft.CocoaExamples.PictureBox")
+#set(MACOSX_BUNDLE_GUI_IDENTIFIER "org.gammasoft.CocoaExamples.PictureBox")
 
 # Resources
 set_source_files_properties(Resources/Logo.png PROPERTIES MACOSX_PACKAGE_LOCATION "Resources")

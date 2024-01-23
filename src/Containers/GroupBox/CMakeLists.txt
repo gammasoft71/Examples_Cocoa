@@ -8,7 +8,7 @@ find_library(COCOA_LIBRARY Cocoa)
 set(MACOSX_BUNDLE_BUNDLE_VERSION ${PROJECT_VERSION})
 set(MACOSX_BUNDLE_COPYRIGHT "© 2020 by Gammasoft")
 set(MACOSX_BUNDLE_INFO_STRING "This example shows how to use GroupBox")
-set(MACOSX_BUNDLE_GUI_IDENTIFIER "org.gammasoft.CocoaExamples.GroupBox")
+#set(MACOSX_BUNDLE_GUI_IDENTIFIER "org.gammasoft.CocoaExamples.GroupBox")
 
 # Application
 add_executable(${PROJECT_NAME} MACOSX_BUNDLE GroupBox.m)

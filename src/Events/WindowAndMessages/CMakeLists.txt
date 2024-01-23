@@ -8,7 +8,7 @@ find_library(COCOA_LIBRARY Cocoa)
 set(MACOSX_BUNDLE_BUNDLE_VERSION ${PROJECT_VERSION})
 set(MACOSX_BUNDLE_COPYRIGHT "© 2018 by Gammasoft")
 set(MACOSX_BUNDLE_INFO_STRING "This example shows how to use Cocoa Windows and messages")
-set(MACOSX_BUNDLE_GUI_IDENTIFIER "org.gammasoft.CocoaExamples.WindowAndMessages")
+#set(MACOSX_BUNDLE_GUI_IDENTIFIER "org.gammasoft.CocoaExamples.WindowAndMessages")
 
 add_executable(${PROJECT_NAME} MACOSX_BUNDLE WindowAndMessages.m)
 target_link_libraries(${PROJECT_NAME} ${COCOA_LIBRARY})

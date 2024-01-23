@@ -8,7 +8,7 @@ find_library(COCOA_LIBRARY Cocoa)
 set(MACOSX_BUNDLE_BUNDLE_VERSION 1.0.0)
 set(MACOSX_BUNDLE_COPYRIGHT "© 2020 by Gammasoft")
 set(MACOSX_BUNDLE_INFO_STRING "This example shows how to use Cocoa Application with Idle event")
-set(MACOSX_BUNDLE_GUI_IDENTIFIER "org.gammasoft.CocoaExamples.ApplicationIdle")
+#set(MACOSX_BUNDLE_GUI_IDENTIFIER "org.gammasoft.CocoaExamples.ApplicationIdle")
 
 # Application
 add_executable(${PROJECT_NAME} MACOSX_BUNDLE ApplicationIdle.m)

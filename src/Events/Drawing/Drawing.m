@@ -29,7 +29,6 @@ int main(int argc, char* argv[]) {
   [window1 setIsVisible:YES];
   
   // Creates Application and asociate menubar and specific menus.
-  [NSApplication sharedApplication];
 
   // Set window as mainWindow
   [window1 makeMainWindow];

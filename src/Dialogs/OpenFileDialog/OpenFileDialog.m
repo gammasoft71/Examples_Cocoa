@@ -58,7 +58,6 @@
 
 int main(int argc, char* argv[]) {
 
-  [NSApplication sharedApplication];
   [[[[Window alloc] init] autorelease] makeMainWindow];
   [NSApp run];
 }

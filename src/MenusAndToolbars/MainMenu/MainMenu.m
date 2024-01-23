@@ -19,7 +19,6 @@
 @implementation Window
 - (instancetype)init {
   // Creates Application and asociate menubar and specific menus.
-  [NSApplication sharedApplication];
   
   // Creae main menubar
   [NSApp setMainMenu:[[[NSMenu alloc] init] autorelease]];
@@ -127,7 +126,6 @@
 @end
 
 int main(int argc, char* argv[]) {
-  [NSApplication sharedApplication];
   [[[[Window alloc] init] autorelease] makeMainWindow];
   [NSApp run];
 }

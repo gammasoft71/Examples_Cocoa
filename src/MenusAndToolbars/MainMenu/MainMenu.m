@@ -3,6 +3,7 @@
 @interface Window : NSWindow {
 }
 - (instancetype)init;
+- (void)settings:(id)sender;
 - (void)fileNew:(id)sender;
 - (void)fileOpen:(id)sender;
 - (void)fileClose:(id)sender;
@@ -26,38 +27,44 @@
   // Creates Application submenu with process name
   [[NSApp mainMenu] addItem:[[[NSMenuItem alloc] init] autorelease]];
   [[[NSApp mainMenu] itemArray][0] setSubmenu:[[[NSMenu alloc] initWithTitle:[[NSProcessInfo processInfo] processName]] autorelease]];
-  [[[[NSApp mainMenu] itemArray][0] submenu] addItem:[[[NSMenuItem alloc] initWithTitle:[NSString stringWithFormat:NSLocalizedString([NSString stringWithUTF8String:"About %@"], nil), [[NSProcessInfo processInfo] processName]] action:@selector(orderFrontStandardAboutPanel:) keyEquivalent:@""] autorelease]];
+  [[[[NSApp mainMenu] itemArray][0] submenu] addItem:[[[NSMenuItem alloc] initWithTitle:[NSString stringWithFormat:NSLocalizedString(@"About %@", nil), [[NSProcessInfo processInfo] processName]] action:@selector(orderFrontStandardAboutPanel:) keyEquivalent:@""] autorelease]];
+  [[[[NSApp mainMenu] itemArray][0] submenu] addItem:[NSMenuItem separatorItem]];
+#ifdef __MAC_13_0
+  [[[[NSApp mainMenu] itemArray][0] submenu] addItem:[[[NSMenuItem alloc] initWithTitle:NSLocalizedString(@"Settings...", nil) action:@selector(settings:) keyEquivalent:@","] autorelease]];
+#else
+  [[[[NSApp mainMenu] itemArray][0] submenu] addItem:[[[NSMenuItem alloc] initWithTitle:NSLocalizedString(@"Preferences", nil) action:@selector(settings:) keyEquivalent:@","] autorelease]];
+#endif
   [[[[NSApp mainMenu] itemArray][0] submenu] addItem:[NSMenuItem separatorItem]];
   [[[[NSApp mainMenu] itemArray][0] submenu] addItem:[[[NSMenuItem alloc] initWithTitle:NSLocalizedString(@"Services", nil) action:nil keyEquivalent:@""] autorelease]];
-  [[[[[NSApp mainMenu] itemArray][0] submenu] itemArray][2] setSubmenu:[[[NSMenu alloc] init] autorelease]];
-  [NSApp setServicesMenu:[[[[[NSApp mainMenu] itemArray][0] submenu] itemArray][2] submenu]];
-  [[[[NSApp mainMenu] itemArray][0] submenu] addItem:[[[NSMenuItem alloc] initWithTitle:[NSString stringWithFormat:NSLocalizedString([NSString stringWithUTF8String:"Hide %@"],nil), [[NSProcessInfo processInfo] processName]] action:@selector(hide:) keyEquivalent:@"h"] autorelease]];
+  [[[[[NSApp mainMenu] itemArray][0] submenu] itemArray][4] setSubmenu:[[[NSMenu alloc] init] autorelease]];
+  [NSApp setServicesMenu:[[[[[NSApp mainMenu] itemArray][0] submenu] itemArray][4] submenu]];
+  [[[[NSApp mainMenu] itemArray][0] submenu] addItem:[[[NSMenuItem alloc] initWithTitle:[NSString stringWithFormat:NSLocalizedString(@"Hide %@", nil), [[NSProcessInfo processInfo] processName]] action:@selector(hide:) keyEquivalent:@"h"] autorelease]];
   [[[[NSApp mainMenu] itemArray][0] submenu] addItem:[[[NSMenuItem alloc] initWithTitle:NSLocalizedString(@"Hide Other", nil) action:@selector(hideOtherApplications:) keyEquivalent:@"h"] autorelease]];
   [[[[[NSApp mainMenu] itemArray][0] submenu] itemArray][4] setKeyEquivalentModifierMask:NSEventModifierFlagOption|NSEventModifierFlagCommand];
   [[[[NSApp mainMenu] itemArray][0] submenu] addItem:[[[NSMenuItem alloc] initWithTitle:NSLocalizedString(@"Show All", nil) action:@selector(unhideAllApplications:) keyEquivalent:@""] autorelease]];
   [[[[NSApp mainMenu] itemArray][0] submenu] addItem:[NSMenuItem separatorItem]];
-  [[[[NSApp mainMenu] itemArray][0] submenu] addItem:[[[NSMenuItem alloc] initWithTitle:[NSString stringWithFormat:NSLocalizedString([NSString stringWithUTF8String:"Quit %@"] , nil), [[NSProcessInfo processInfo] processName]] action:@selector(terminate:) keyEquivalent:@"q"] autorelease]];
+  [[[[NSApp mainMenu] itemArray][0] submenu] addItem:[[[NSMenuItem alloc] initWithTitle:[NSString stringWithFormat:NSLocalizedString(@"Quit %@", nil), [[NSProcessInfo processInfo] processName]] action:@selector(terminate:) keyEquivalent:@"q"] autorelease]];
   
   // Create File submenu
   [[NSApp mainMenu] addItem:[[[NSMenuItem alloc] init] autorelease]];
   [[[NSApp mainMenu] itemArray][1] setSubmenu:[[[NSMenu alloc] initWithTitle:NSLocalizedString(@"File" , nil)] autorelease]];
-  [[[[NSApp mainMenu] itemArray][1] submenu] addItem:[[[NSMenuItem alloc] initWithTitle:NSLocalizedString([NSString stringWithUTF8String:"New"] , nil) action:@selector(fileNew:) keyEquivalent:@"n"] autorelease]];
-  [[[[NSApp mainMenu] itemArray][1] submenu] addItem:[[[NSMenuItem alloc] initWithTitle:NSLocalizedString([NSString stringWithUTF8String:"Open"] , nil) action:@selector(fileOpen:) keyEquivalent:@"o"] autorelease]];
+  [[[[NSApp mainMenu] itemArray][1] submenu] addItem:[[[NSMenuItem alloc] initWithTitle:NSLocalizedString(@"New", nil) action:@selector(fileNew:) keyEquivalent:@"n"] autorelease]];
+  [[[[NSApp mainMenu] itemArray][1] submenu] addItem:[[[NSMenuItem alloc] initWithTitle:NSLocalizedString(@"Open", nil) action:@selector(fileOpen:) keyEquivalent:@"o"] autorelease]];
   [[[[NSApp mainMenu] itemArray][1] submenu] addItem:[NSMenuItem separatorItem]];
-  [[[[NSApp mainMenu] itemArray][1] submenu] addItem:[[[NSMenuItem alloc] initWithTitle:NSLocalizedString([NSString stringWithUTF8String:"Close"] , nil) action:@selector(fileClose:) keyEquivalent:@"w"] autorelease]];
+  [[[[NSApp mainMenu] itemArray][1] submenu] addItem:[[[NSMenuItem alloc] initWithTitle:NSLocalizedString(@"Close", nil) action:@selector(fileClose:) keyEquivalent:@"w"] autorelease]];
 
   // Create Edit submenu
   [[NSApp mainMenu] addItem:[[[NSMenuItem alloc] init] autorelease]];
   [[[NSApp mainMenu] itemArray][2] setSubmenu:[[[NSMenu alloc] initWithTitle:NSLocalizedString(@"Edit" , nil)] autorelease]];
-  [[[[NSApp mainMenu] itemArray][2] submenu] addItem:[[[NSMenuItem alloc] initWithTitle:NSLocalizedString([NSString stringWithUTF8String:"Undo"] , nil) action:@selector(editUndo:) keyEquivalent:@"z"] autorelease]];
-  [[[[NSApp mainMenu] itemArray][2] submenu] addItem:[[[NSMenuItem alloc] initWithTitle:NSLocalizedString([NSString stringWithUTF8String:"Redo"] , nil) action:@selector(editRedo:) keyEquivalent:@"Z"] autorelease]];
+  [[[[NSApp mainMenu] itemArray][2] submenu] addItem:[[[NSMenuItem alloc] initWithTitle:NSLocalizedString(@"Undo", nil) action:@selector(editUndo:) keyEquivalent:@"z"] autorelease]];
+  [[[[NSApp mainMenu] itemArray][2] submenu] addItem:[[[NSMenuItem alloc] initWithTitle:NSLocalizedString(@"Redo" , nil) action:@selector(editRedo:) keyEquivalent:@"Z"] autorelease]];
   [[[[NSApp mainMenu] itemArray][2] submenu] addItem:[NSMenuItem separatorItem]];
-  [[[[NSApp mainMenu] itemArray][2] submenu] addItem:[[[NSMenuItem alloc] initWithTitle:NSLocalizedString([NSString stringWithUTF8String:"Cut"] , nil) action:@selector(editCut:) keyEquivalent:@"x"] autorelease]];
-  [[[[NSApp mainMenu] itemArray][2] submenu] addItem:[[[NSMenuItem alloc] initWithTitle:NSLocalizedString([NSString stringWithUTF8String:"Copy"] , nil) action:@selector(editCopy:) keyEquivalent:@"c"] autorelease]];
-  [[[[NSApp mainMenu] itemArray][2] submenu] addItem:[[[NSMenuItem alloc] initWithTitle:NSLocalizedString([NSString stringWithUTF8String:"Paste"] , nil) action:@selector(editPaste:) keyEquivalent:@"v"] autorelease]];
-  [[[[NSApp mainMenu] itemArray][2] submenu] addItem:[[[NSMenuItem alloc] initWithTitle:NSLocalizedString([NSString stringWithUTF8String:"Delete"] , nil) action:@selector(editDelete:) keyEquivalent:@"\b"] autorelease]];
+  [[[[NSApp mainMenu] itemArray][2] submenu] addItem:[[[NSMenuItem alloc] initWithTitle:NSLocalizedString(@"Cut", nil) action:@selector(editCut:) keyEquivalent:@"x"] autorelease]];
+  [[[[NSApp mainMenu] itemArray][2] submenu] addItem:[[[NSMenuItem alloc] initWithTitle:NSLocalizedString(@"Copy", nil) action:@selector(editCopy:) keyEquivalent:@"c"] autorelease]];
+  [[[[NSApp mainMenu] itemArray][2] submenu] addItem:[[[NSMenuItem alloc] initWithTitle:NSLocalizedString(@"Paste", nil) action:@selector(editPaste:) keyEquivalent:@"v"] autorelease]];
+  [[[[NSApp mainMenu] itemArray][2] submenu] addItem:[[[NSMenuItem alloc] initWithTitle:NSLocalizedString(@"Delete", nil) action:@selector(editDelete:) keyEquivalent:@"\b"] autorelease]];
   [[[[NSApp mainMenu] itemArray][2] submenu] addItem:[NSMenuItem separatorItem]];
-  [[[[NSApp mainMenu] itemArray][2] submenu] addItem:[[[NSMenuItem alloc] initWithTitle:NSLocalizedString([NSString stringWithUTF8String:"Select all"] , nil) action:@selector(editSelectAll:) keyEquivalent:@"a"] autorelease]];
+  [[[[NSApp mainMenu] itemArray][2] submenu] addItem:[[[NSMenuItem alloc] initWithTitle:NSLocalizedString(@"Select all", nil) action:@selector(editSelectAll:) keyEquivalent:@"a"] autorelease]];
 
   // Creates View submenu
   [[NSApp mainMenu] addItem:[[[NSMenuItem alloc] init] autorelease]];
@@ -77,6 +84,10 @@
   [self setTitle:@"MainMenu example"];
   [self setIsVisible:YES];
   return self;
+}
+
+- (void)settings:(id)sender {
+  NSLog(@"MainMenu/Settings");
 }
 
 - (void)fileNew:(id)sender {

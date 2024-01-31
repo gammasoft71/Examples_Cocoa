@@ -23,6 +23,7 @@
 @end
 
 int main(int argc, char* argv[]) {
+  [NSApplication sharedApplication];
   // Create Window
   Window* window1 = [[[Window alloc] initWithContentRect:NSMakeRect(100, 100, 300, 300) styleMask:NSWindowStyleMaskTitled | NSWindowStyleMaskClosable | NSWindowStyleMaskMiniaturizable | NSWindowStyleMaskResizable backing:NSBackingStoreBuffered defer:NO] autorelease];
   [window1 setTitle:@"Drawing Example"];

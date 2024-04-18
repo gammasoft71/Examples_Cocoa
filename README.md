@@ -1,5 +1,5 @@
 
-# Cocoa Examples
+# Cocoa examples
 
 Shows how to use macOS [AppKit](https://developer.apple.com/documentation/appkit/) Cocoa controls without StoryBoard only by programming code (objective-c).
 
